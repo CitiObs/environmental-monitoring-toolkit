@@ -4,23 +4,26 @@
   * [Glossary](readme/glossary.md)
   * [About](readme/about.md)
   * [Why this Toolkit?](readme/why-this-toolkit.md)
+* [ENVIRONMENTAL MONITORING](environmental-monitoring/README.md)
+  * [What to consider before conducting environmental monitoring?](environmental-monitoring/what-to-consider-before-conducting-environmental-monitoring.md)
+  * [How to ask the right questions in air quality monitoring?](environmental-monitoring/how-to-ask-the-right-questions-in-air-quality-monitoring.md)
+  * [Who is who in air quality environmental monitoring?](environmental-monitoring/who-is-who-in-air-quality-environmental-monitoring.md)
 
 ## ENVIRONMENTAL MONITORING
 
-* [What to consider before conducting environmental monitoring?](environmental-monitoring/what-to-consider-before-conducting-environmental-monitoring.md)
-* [How to ask the right questions in air quality monitoring?](environmental-monitoring/how-to-ask-the-right-questions-in-air-quality-monitoring.md)
-* [Who is who in air quality environmental monitoring?](environmental-monitoring/who-is-who-in-air-quality-environmental-monitoring.md)
+***
+
+* [SENSING DEVICES](sensing-devices/README.md)
+  * [What are we talking about when we say sensing device?](sensing-devices/what-are-we-talking-about-when-we-say-sensing-device.md)
+  * [What are the main elements of a sensing device?](sensing-devices/what-are-the-main-elements-of-a-sensing-device.md)
+  * [What aspects to consider when doing mobile monitoring?](sensing-devices/what-aspects-to-consider-when-doing-mobile-monitoring.md)
+  * [What aspects to consider when writing guidance on how to install sensing devices?](sensing-devices/what-aspects-to-consider-when-writing-guidance-on-how-to-install-sensing-devices.md)
+  * [What non-technical aspects to consider when choosing sensing devices?](sensing-devices/what-non-technical-aspects-to-consider-when-choosing-sensing-devices.md)
+  * [What other methods can be used for air quality monitoring besides sensing device technologies, in th](sensing-devices/what-other-methods-can-be-used-for-air-quality-monitoring-besides-sensing-device-technologies-in-th.md)
+  * [What technical aspects to consider when choosing an air quality sensing device?](sensing-devices/what-technical-aspects-to-consider-when-choosing-an-air-quality-sensing-device.md)
+  * [What variables can be measured with air quality sensing devices?](sensing-devices/what-variables-can-be-measured-with-air-quality-sensing-devices.md)
 
 ## SENSING DEVICE
-
-* [What are we talking about when we say sensing device?](sensing-device/what-are-we-talking-about-when-we-say-sensing-device.md)
-* [What are the main elements of a sensing device?](sensing-device/what-are-the-main-elements-of-a-sensing-device.md)
-* [What aspects to consider when doing mobile monitoring?](sensing-device/what-aspects-to-consider-when-doing-mobile-monitoring.md)
-* [What aspects to consider when writing guidance on how to install sensing devices?](sensing-device/what-aspects-to-consider-when-writing-guidance-on-how-to-install-sensing-devices.md)
-* [What non-technical aspects to consider when choosing sensing devices?](sensing-device/what-non-technical-aspects-to-consider-when-choosing-sensing-devices.md)
-* [What other methods can be used for air quality monitoring besides sensing device technologies, in th](sensing-device/what-other-methods-can-be-used-for-air-quality-monitoring-besides-sensing-device-technologies-in-th.md)
-* [What technical aspects to consider when choosing an air quality sensing device?](sensing-device/what-technical-aspects-to-consider-when-choosing-an-air-quality-sensing-device.md)
-* [What variables can be measured with air quality sensing devices?](sensing-device/what-variables-can-be-measured-with-air-quality-sensing-devices.md)
 
 ## SENSOR DATA PLATFORM
 
