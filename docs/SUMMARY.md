@@ -8,11 +8,6 @@
   * [What to consider before conducting environmental monitoring?](environmental-monitoring/what-to-consider-before-conducting-environmental-monitoring.md)
   * [How to ask the right questions in air quality monitoring?](environmental-monitoring/how-to-ask-the-right-questions-in-air-quality-monitoring.md)
   * [Who is who in air quality environmental monitoring?](environmental-monitoring/who-is-who-in-air-quality-environmental-monitoring.md)
-
-## ENVIRONMENTAL MONITORING
-
-***
-
 * [SENSING DEVICES](sensing-devices/README.md)
   * [What are we talking about when we say sensing device?](sensing-devices/what-are-we-talking-about-when-we-say-sensing-device.md)
   * [What are the main elements of a sensing device?](sensing-devices/what-are-the-main-elements-of-a-sensing-device.md)
@@ -22,27 +17,16 @@
   * [What other methods can be used for air quality monitoring besides sensing device technologies, in th](sensing-devices/what-other-methods-can-be-used-for-air-quality-monitoring-besides-sensing-device-technologies-in-th.md)
   * [What technical aspects to consider when choosing an air quality sensing device?](sensing-devices/what-technical-aspects-to-consider-when-choosing-an-air-quality-sensing-device.md)
   * [What variables can be measured with air quality sensing devices?](sensing-devices/what-variables-can-be-measured-with-air-quality-sensing-devices.md)
-
-## SENSING DEVICE
-
-## SENSOR DATA PLATFORM
-
-* [Page 2](sensor-data-platform/page-2.md)
-* [What aspects to consider when choosing an infrastructure or platform??](sensor-data-platform/what-aspects-to-consider-when-choosing-an-infrastructure-or-platform.md)
-* [What are the main components of a sensor data platform?](sensor-data-platform/what-are-the-main-components-of-a-sensor-data-platform.md)
-* [What should be considered when building a sensor data platform for COs?](sensor-data-platform/what-should-be-considered-when-building-a-sensor-data-platform-for-cos.md)
-* [What to consider for increasing interoperability among sensor data infrastructures?](sensor-data-platform/what-to-consider-for-increasing-interoperability-among-sensor-data-infrastructures.md)
-
-## MANAGING DATA
-
-* [How do we increase traceability in data collected by citizens??](managing-data/how-do-we-increase-traceability-in-data-collected-by-citizens.md)
-* [How can I analyse and visualize my data??](managing-data/how-can-i-analyse-and-visualize-my-data.md)
-* [How to make data accessible to non-experts in a clear and understandable format?](managing-data/how-to-make-data-accessible-to-non-experts-in-a-clear-and-understandable-format.md)
-* [How do we increase transparency in data collected by citizens?](managing-data/how-do-we-increase-transparency-in-data-collected-by-citizens.md)
-* [What are the main aspects you need to consider when managing citizen collected data?](managing-data/what-are-the-main-aspects-you-need-to-consider-when-managing-citizen-collected-data.md)
-* [Why is it important to document context and how does it help better understand collected data?](managing-data/why-is-it-important-to-document-context-and-how-does-it-help-better-understand-collected-data.md)
-
-## COMMUNITY
-
-* [How to address the lack of confidence in the use of sensor technology?](community/how-to-address-the-lack-of-confidence-in-the-use-of-sensor-technology.md)
-* [How to promote involvement and participation in environmental monitoring to minimize data gaps?](community/how-to-promote-involvement-and-participation-in-environmental-monitoring-to-minimize-data-gaps.md)
+* [DATA PLATFORMS](data-platforms/README.md)
+  * [What are the main components of a sensor data platform?](data-platforms/what-are-the-main-components-of-a-sensor-data-platform.md)
+  * [What aspects to consider when choosing an infrastructure or platform?](data-platforms/what-aspects-to-consider-when-choosing-an-infrastructure-or-platform.md)
+  * [What to consider for increasing interoperability among sensor data infrastructures?](data-platforms/what-to-consider-for-increasing-interoperability-among-sensor-data-infrastructures.md)
+  * [What should be considered when building a sensor data platform for COs?](data-platforms/what-should-be-considered-when-building-a-sensor-data-platform-for-cos.md)
+* [MANAGING DATA](managing-data/README.md)
+  * [What aspects to consider when choosing an infrastructure or platform??](managing-data/what-aspects-to-consider-when-choosing-an-infrastructure-or-platform.md)
+  * [What are the main components of a sensor data platform?](managing-data/what-are-the-main-components-of-a-sensor-data-platform.md)
+  * [What should be considered when building a sensor data platform for COs?](managing-data/what-should-be-considered-when-building-a-sensor-data-platform-for-cos.md)
+  * [What to consider for increasing interoperability among sensor data infrastructures?](managing-data/what-to-consider-for-increasing-interoperability-among-sensor-data-infrastructures.md)
+* [COMMUNITY](community/README.md)
+  * [How to address the lack of confidence in the use of sensor technology?](community/how-to-address-the-lack-of-confidence-in-the-use-of-sensor-technology.md)
+  * [How to promote involvement and participation in environmental monitoring to minimize data gaps?](community/how-to-promote-involvement-and-participation-in-environmental-monitoring-to-minimize-data-gaps.md)
