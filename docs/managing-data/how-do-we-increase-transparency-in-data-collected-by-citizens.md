@@ -1,3 +1,7 @@
+---
+icon: window-frame
+---
+
 # How do we increase transparency in data collected by citizens?
 
 ## Description
@@ -46,7 +50,7 @@ Here are several strategies to ensure transparency in Citizen Science data:
 
 ## You might also be interested in….
 
-* [What non-technical aspects to consider when choosing sensing devices?](broken-reference)
-* [Why is it important to document context and how does it help better understand collected data?](broken-reference)
-* [How to make data accessible to non-experts in a clear and understandable format?](broken-reference)
-* [How to promote involvement and participation in environmental monitoring to minimize data gaps?](broken-reference)
+* [What non-technical aspects to consider when choosing sensing devices?](../sensing-devices/what-non-technical-aspects-to-consider-when-choosing-sensing-devices.md)
+* [Why is it important to document context and how does it help better understand collected data?](why-is-it-important-to-document-context-and-how-does-it-help-better-understand-collected-data.md)
+* [How to make data accessible to non-experts in a clear and understandable format?](how-to-make-data-accessible-to-non-experts-in-a-clear-and-understandable-format.md)
+* [How to promote involvement and participation in environmental monitoring to minimize data gaps?](../community/how-to-promote-involvement-and-participation-in-environmental-monitoring-to-minimize-data-gaps.md)

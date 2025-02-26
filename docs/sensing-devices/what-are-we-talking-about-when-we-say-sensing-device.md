@@ -1,3 +1,7 @@
+---
+icon: tablet-rugged
+---
+
 # What are we talking about when we say sensing device?
 
 ## Description
@@ -38,5 +42,5 @@ Some features of the sensing devices commonly used for engaging people in enviro
 
 ## You might also be interested in….
 
-* [What are the main elements of a sensing device?](broken-reference)
-* [What aspects to consider when choosing an infrastructure/platform?](broken-reference)
+* [What are the main elements of a sensing device?](what-are-the-main-elements-of-a-sensing-device.md)
+* [What aspects to consider when choosing an infrastructure/platform?](../data-platforms/what-aspects-to-consider-when-choosing-an-infrastructure-or-platform.md)

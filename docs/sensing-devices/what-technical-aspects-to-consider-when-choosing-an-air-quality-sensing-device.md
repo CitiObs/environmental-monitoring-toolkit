@@ -1,3 +1,7 @@
+---
+icon: laptop-binary
+---
+
 # What technical aspects to consider when choosing an air quality sensing device?
 
 ## Description
@@ -10,7 +14,7 @@ Sensing devices are normally part of a larger system, which very likely involve 
 
 ## How can this be done?
 
-A good first step is to understand the main components of the sensing devices that we have lined up in the chapter [What are the main elements of a sensing device?](broken-reference)
+A good first step is to understand the main components of the sensing devices that we have lined up in the chapter [What are the main elements of a sensing device?](what-are-the-main-elements-of-a-sensing-device.md)
 
 Once we have a clear understanding of what these parts are, we need to then look at how we would like our device to be deployed on the field. Does it need to be installed for long periods of time? Are there Wi-Fi communications available? Before doing a major investment, you can always order samples and try them in real life situations, covering different locations and types of users. Go through the whole process from installing the devices to your final dashboard or at least to your centralized database to see if you can spot any unforeseen issue.
 
@@ -33,8 +37,8 @@ The following checklist should cover most of the technical aspects you need to c
 
 ## You might also be interested in….
 
-* [What are the main elements of a sensing device?](broken-reference)
-* [What variables can be measured with air quality sensing devices?](broken-reference)
-* [What non-technical aspects to consider when choosing sensing devices?](broken-reference)
-* [What is data quality? How can we increase data quality in citizen gathered data?](broken-reference)
-* [Why is it important to document context and how does it help better understand collected data?](broken-reference)
+* [What are the main elements of a sensing device?](what-are-the-main-elements-of-a-sensing-device.md)
+* [What variables can be measured with air quality sensing devices?](what-variables-can-be-measured-with-air-quality-sensing-devices.md)
+* [What non-technical aspects to consider when choosing sensing devices?](what-non-technical-aspects-to-consider-when-choosing-sensing-devices.md)
+* [What is data quality? How can we increase data quality in citizen gathered data?](../managing-data/what-is-data-quality-how-can-we-increase-data-quality-in-citizen-gathered-data.md)
+* [Why is it important to document context and how does it help better understand collected data?](../managing-data/why-is-it-important-to-document-context-and-how-does-it-help-better-understand-collected-data.md)

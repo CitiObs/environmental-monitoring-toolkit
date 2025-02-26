@@ -1,3 +1,7 @@
+---
+icon: square-terminal
+---
+
 # What should be considered when building a sensor data platform for COs?
 
 ## Description
@@ -43,5 +47,5 @@ In addition, below, we list some factors that are transversal to these items:
 
 ## You might also be interested in….
 
-* [What are the main aspects you need to consider when managing citizen collected data?](broken-reference)
-* [What is data quality? How can we increase data quality in citizen gathered data?](broken-reference)
+* [What are the main aspects you need to consider when managing citizen collected data?](../managing-data/what-are-the-main-aspects-you-need-to-consider-when-managing-citizen-collected-data.md)
+* [What is data quality? How can we increase data quality in citizen gathered data?](../managing-data/what-is-data-quality-how-can-we-increase-data-quality-in-citizen-gathered-data.md)

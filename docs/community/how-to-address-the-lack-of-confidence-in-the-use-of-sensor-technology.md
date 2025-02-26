@@ -1,3 +1,7 @@
+---
+icon: eyes
+---
+
 # How to address the lack of confidence in the use of sensor technology?
 
 ## Description
@@ -57,5 +61,5 @@ Effectively communicating technical and scientific terms to a wide audience invo
 
 ## You might also be interested in….
 
-* [What aspects to consider when writing guidance on how to install sensing devices?](broken-reference)
-* [How to make data accessible to non-experts in a clear and understandable format?](broken-reference)
+* [What aspects to consider when writing guidance on how to install sensing devices?](../sensing-devices/what-aspects-to-consider-when-writing-guidance-on-how-to-install-sensing-devices.md)
+* [How to make data accessible to non-experts in a clear and understandable format?](../managing-data/how-to-make-data-accessible-to-non-experts-in-a-clear-and-understandable-format.md)

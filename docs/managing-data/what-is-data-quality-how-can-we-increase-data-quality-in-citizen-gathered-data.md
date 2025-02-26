@@ -1,3 +1,7 @@
+---
+icon: head-side-goggles
+---
+
 # What is data quality? How can we increase data quality in citizen gathered data?
 
 ## Description
@@ -36,5 +40,5 @@ A Citizen Science project can increase data quality when using sensing devices t
 
 ## You might also be interested in….
 
-* [What are the main aspects you need to consider when managing citizen collected data?](broken-reference)
-* [Why is it important to document context and how does it help better understand collected data?](broken-reference)
+* [What are the main aspects you need to consider when managing citizen collected data?](what-are-the-main-aspects-you-need-to-consider-when-managing-citizen-collected-data.md)
+* [Why is it important to document context and how does it help better understand collected data?](why-is-it-important-to-document-context-and-how-does-it-help-better-understand-collected-data.md)

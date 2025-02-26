@@ -1,4 +1,5 @@
 ---
+icon: heart
 layout:
   title:
     visible: true

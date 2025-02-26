@@ -1,3 +1,7 @@
+---
+icon: server
+---
+
 # What are the main components of a sensor data platform?
 
 ## Description
@@ -10,9 +14,9 @@ Sensor data platforms allow collecting, processing and sharing data from distrib
 
 ## How can this be done?
 
-The following main components are generic to a typical sensor data platform (Figure 4):
+The following main components are generic to a typical sensor data platform:
 
-![](data:image/png;base64...)
+![Typical sensor data platform architecture](../.gitbook/assets/citiobs-platform-components.png)
 
 Figure 4. Main components of a sensor data platform
 
@@ -29,6 +33,6 @@ Figure 4. Main components of a sensor data platform
 
 ## You might also be interested in….
 
-* [What should be considered when building a sensor data platform for COs?](broken-reference)
-* [What aspects to consider when choosing an infrastructure/platform?](broken-reference)
-* [What to consider for increasing interoperability among sensor data infrastructures?](broken-reference)
+* [What should be considered when building a sensor data platform for COs?](what-should-be-considered-when-building-a-sensor-data-platform-for-cos.md)
+* [What aspects to consider when choosing an infrastructure/platform?](../sensing-devices/what-aspects-to-consider-when-doing-mobile-monitoring.md)
+* [What to consider for increasing interoperability among sensor data infrastructures?](what-to-consider-for-increasing-interoperability-among-sensor-data-infrastructures.md)

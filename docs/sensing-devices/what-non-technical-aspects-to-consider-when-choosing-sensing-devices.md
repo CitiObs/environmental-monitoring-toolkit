@@ -1,3 +1,7 @@
+---
+icon: memo-circle-check
+---
+
 # What non-technical aspects to consider when choosing sensing devices?
 
 ## Description
@@ -33,5 +37,5 @@ When choosing sensing devices for air quality monitoring, several non-technical 
 
 ## You might also be interested in….
 
-* [What are the main elements of a sensing device?](broken-reference)
-* [What technical aspects to consider when choosing an air quality sensing device?](broken-reference)
+* [What are the main elements of a sensing device?](what-are-the-main-elements-of-a-sensing-device.md)
+* [What technical aspects to consider when choosing an air quality sensing device?](../data-platforms/what-aspects-to-consider-when-choosing-an-infrastructure-or-platform.md)

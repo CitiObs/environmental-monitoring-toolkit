@@ -1,3 +1,7 @@
+---
+icon: chart-line
+---
+
 # How can I analyse and visualize my data?
 
 ## Description
@@ -31,6 +35,6 @@ Technical tools should be tailored to their specific purpose and should avoid un
 
 ## You might also be interested in….
 
-* [What are the main aspects you need to consider when managing citizen collected data?](broken-reference)
-* [What is data quality? How can we increase data quality in citizen gathered data?](broken-reference)
-* [How to make data accessible to non-experts in a clear and understandable format?](broken-reference)
+* [What are the main aspects you need to consider when managing citizen collected data?](what-are-the-main-aspects-you-need-to-consider-when-managing-citizen-collected-data.md)
+* [What is data quality? How can we increase data quality in citizen gathered data?](what-is-data-quality-how-can-we-increase-data-quality-in-citizen-gathered-data.md)
+* [How to make data accessible to non-experts in a clear and understandable format?](how-to-make-data-accessible-to-non-experts-in-a-clear-and-understandable-format.md)

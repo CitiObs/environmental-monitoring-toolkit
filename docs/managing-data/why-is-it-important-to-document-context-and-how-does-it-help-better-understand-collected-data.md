@@ -1,3 +1,7 @@
+---
+icon: arrows-to-circle
+---
+
 # Why is it important to document context and how does it help better understand collected data?
 
 ## Description
@@ -32,6 +36,6 @@ Some types of context data are available through online sources or even provided
 
 ## You might also be interested in….
 
-* [Who is who in air quality environmental monitoring?](broken-reference)
-* [What variables can be measured with air quality sensing devices?](broken-reference)
-* [What are the main aspects you need to consider when managing citizen collected data?](broken-reference)
+* [Who is who in air quality environmental monitoring?](../environmental-monitoring/who-is-who-in-air-quality-environmental-monitoring.md)
+* [What variables can be measured with air quality sensing devices?](../sensing-devices/what-variables-can-be-measured-with-air-quality-sensing-devices.md)
+* [What are the main aspects you need to consider when managing citizen collected data?](what-are-the-main-aspects-you-need-to-consider-when-managing-citizen-collected-data.md)

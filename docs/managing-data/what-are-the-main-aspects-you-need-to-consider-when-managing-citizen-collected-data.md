@@ -1,3 +1,7 @@
+---
+icon: bars-progress
+---
+
 # What are the main aspects you need to consider when managing citizen collected data?
 
 ## Description
@@ -31,7 +35,7 @@ Data management involves a series of processes aimed at ensuring the accuracy, r
 
 ## You might also be interested in….
 
-* [Why is it important to document context and how does it help better understand collected data?](broken-reference)
-* [How do we increase transparency in data collected by citizens?](broken-reference)
-* [How to make data accessible to non-experts in a clear and understandable format?](broken-reference)
-* [How can I analyse and visualize my data?](broken-reference)
+* [Why is it important to document context and how does it help better understand collected data?](why-is-it-important-to-document-context-and-how-does-it-help-better-understand-collected-data.md)
+* [How do we increase transparency in data collected by citizens?](how-do-we-increase-traceability-in-data-collected-by-citizens.md)
+* [How to make data accessible to non-experts in a clear and understandable format?](how-to-make-data-accessible-to-non-experts-in-a-clear-and-understandable-format.md)
+* [How can I analyse and visualize my data?](how-can-i-analyse-and-visualize-my-data.md)

@@ -1,3 +1,7 @@
+---
+icon: network-wired
+---
+
 # What to consider for increasing interoperability among sensor data infrastructures?
 
 ## Description
@@ -25,5 +29,5 @@ Increasing interoperability among sensor data infrastructures relies on several 
 
 ## You might also be interested in….
 
-* [What should be considered when building a sensor data platform for COs?](broken-reference)
-* [What are the main components of a sensor data platform?](broken-reference)
+* [What should be considered when building a sensor data platform for COs?](what-should-be-considered-when-building-a-sensor-data-platform-for-cos.md)
+* [What are the main components of a sensor data platform?](what-are-the-main-components-of-a-sensor-data-platform.md)

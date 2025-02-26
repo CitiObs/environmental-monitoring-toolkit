@@ -1,3 +1,7 @@
+---
+icon: dog-leashed
+---
+
 # What aspects to consider when writing guidance on how to install sensing devices?
 
 ## Description
@@ -94,5 +98,5 @@ Some of the aspects that need to be considered to ensure individuals and organiz
 
 ## You might also be interested in….
 
-* [How to make data accessible to non-experts in a clear and understandable format?](broken-reference)
-* [How to address the lack of confidence in the use of sensor technology?](broken-reference)
+* [How to make data accessible to non-experts in a clear and understandable format?](../managing-data/how-to-make-data-accessible-to-non-experts-in-a-clear-and-understandable-format.md)
+* [How to address the lack of confidence in the use of sensor technology?](../community/how-to-address-the-lack-of-confidence-in-the-use-of-sensor-technology.md)

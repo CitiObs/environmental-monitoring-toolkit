@@ -1,3 +1,7 @@
+---
+icon: arrows-left-right-to-line
+---
+
 # How to promote involvement and participation in environmental monitoring to minimize data gaps?
 
 ## Description
@@ -56,7 +60,7 @@ Here are some useful resources that can help in the endeavor of reducing data ga
 
 ## You might also be interested in….
 
-* [How to ask the right questions in air quality monitoring?](broken-reference)
-* [What aspects to consider when writing guidance on how to install sensing devices?](broken-reference)
-* [How do we increase transparency in data collected by citizens?](broken-reference)
-* [How to make data accessible to non-experts in a clear and understandable format?](broken-reference)
+* [How to ask the right questions in air quality monitoring?](../environmental-monitoring/how-to-ask-the-right-questions-in-air-quality-monitoring.md)
+* [What aspects to consider when writing guidance on how to install sensing devices?](../sensing-devices/what-aspects-to-consider-when-writing-guidance-on-how-to-install-sensing-devices.md)
+* [How do we increase transparency in data collected by citizens?](../managing-data/how-do-we-increase-transparency-in-data-collected-by-citizens.md)
+* [How to make data accessible to non-experts in a clear and understandable format?](../managing-data/how-to-make-data-accessible-to-non-experts-in-a-clear-and-understandable-format.md)

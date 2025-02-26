@@ -1,3 +1,7 @@
+---
+icon: microchip
+---
+
 # What are the main elements of a sensing device?
 
 ## Description
@@ -18,9 +22,7 @@ The affordability of sensing elements contrasts with the increased costs associa
 
 Sensing devices for monitoring air pollution typically include several key components:
 
-![](data:image/png;base64...)
-
-Figure 3. Components of a sensing device
+![Components of a sensing device](../.gitbook/assets/sensor.png)
 
 1. **Sensing element / Environmental sensors:** this is the core component responsible for detecting pollutants in the air. Different sensors may use various technologies such as metal oxide semiconductor (MOS) sensors, electrochemical sensors, optical sensors (like laser-based sensors or light scattering sensors) depending on the type of pollutants they are designed to detect. In addition to pollutant detection, some sensing devices may integrate environmental sensors for measuring temperature, humidity, atmospheric pressure, or other relevant parameters. This additional data can provide context for interpreting air pollution levels.
 2. **Microcontroller or Processor:** a microcontroller or processor handles data processing tasks, such as signal conditioning, calibration, and conversion of sensor readings into digital data. It may also control sensor operations and manage communication with external devices.
@@ -40,8 +42,8 @@ Figure 3. Components of a sensing device
 
 ## You might also be interested in….
 
-* [Who is who in air quality environmental monitoring?](broken-reference)
-* [What technical aspects to consider when choosing an air quality sensing device?](broken-reference)
-* [What non-technical aspects to consider when choosing sensing devices?](broken-reference)
-* [What aspects to consider when choosing an infrastructure/platform?](broken-reference)
-* [What are the main aspects you need to consider when managing citizen collected data?](broken-reference)
+* [Who is who in air quality environmental monitoring?](../environmental-monitoring/who-is-who-in-air-quality-environmental-monitoring.md)
+* [What technical aspects to consider when choosing an air quality sensing device?](what-technical-aspects-to-consider-when-choosing-an-air-quality-sensing-device.md)
+* [What non-technical aspects to consider when choosing sensing devices?](what-non-technical-aspects-to-consider-when-choosing-sensing-devices.md)
+* [What aspects to consider when choosing an infrastructure/platform?](what-aspects-to-consider-when-doing-mobile-monitoring.md)
+* [What are the main aspects you need to consider when managing citizen collected data?](../managing-data/what-are-the-main-aspects-you-need-to-consider-when-managing-citizen-collected-data.md)

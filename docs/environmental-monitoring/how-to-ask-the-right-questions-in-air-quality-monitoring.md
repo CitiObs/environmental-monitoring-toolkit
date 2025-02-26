@@ -1,3 +1,7 @@
+---
+icon: question
+---
+
 # How to ask the right questions in air quality monitoring?
 
 ## Description
@@ -32,7 +36,7 @@ The considerations below can help to formulate the research question:
 
 ## You might also be interested in….
 
-* [Who is who in air quality environmental mapping?](broken-reference)
-* [What variables can be measured with air quality sensing devices?](broken-reference)
-* [What technical aspects to consider when choosing an air quality sensing device?](broken-reference)
-* [What non-technical aspects to consider when choosing sensing devices?](broken-reference)
+* [Who is who in air quality environmental mapping?](who-is-who-in-air-quality-environmental-monitoring.md)
+* [What variables can be measured with air quality sensing devices?](../sensing-devices/what-variables-can-be-measured-with-air-quality-sensing-devices.md)
+* [What technical aspects to consider when choosing an air quality sensing device?](../sensing-devices/what-technical-aspects-to-consider-when-choosing-an-air-quality-sensing-device.md)
+* [What non-technical aspects to consider when choosing sensing devices?](../sensing-devices/what-non-technical-aspects-to-consider-when-choosing-sensing-devices.md)

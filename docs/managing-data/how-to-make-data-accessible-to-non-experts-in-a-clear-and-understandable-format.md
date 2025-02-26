@@ -1,3 +1,7 @@
+---
+icon: lightbulb-on
+---
+
 # How to make data accessible to non-experts in a clear and understandable format?
 
 ## Description
@@ -57,7 +61,7 @@ Making citizen collected data more accessible and transparent to non-experts inv
 
 ## You might also be interested in….
 
-* [What are the main aspects you need to consider when managing citizen collected data?](broken-reference)
-* [What is data quality? How can we increase data quality in citizen gathered data?](broken-reference)
-* [How can I analyse and visualize my data?](broken-reference)
-* [How to promote involvement and participation in environmental monitoring to minimize data gaps?](broken-reference)
+* [What are the main aspects you need to consider when managing citizen collected data?](what-are-the-main-aspects-you-need-to-consider-when-managing-citizen-collected-data.md)
+* [What is data quality? How can we increase data quality in citizen gathered data?](what-is-data-quality-how-can-we-increase-data-quality-in-citizen-gathered-data.md)
+* [How can I analyse and visualize my data?](how-can-i-analyse-and-visualize-my-data.md)
+* [How to promote involvement and participation in environmental monitoring to minimize data gaps?](../community/how-to-promote-involvement-and-participation-in-environmental-monitoring-to-minimize-data-gaps.md)

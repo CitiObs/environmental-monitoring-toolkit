@@ -1,4 +1,8 @@
-# What other methods can be used for air quality monitoring besides sensing device technologies, in th
+---
+icon: vial
+---
+
+# What other methods can be used for air quality monitoring?
 
 ## Description
 
@@ -27,5 +31,5 @@ Some alternative methods to sensor devices include:
 
 ## You might also be interested in….
 
-* [What variables can be measured with air quality sensing devices?](broken-reference)
-* [What technical aspects to consider when choosing an air quality sensing device?](broken-reference)
+* [What variables can be measured with air quality sensing devices?](what-variables-can-be-measured-with-air-quality-sensing-devices.md)
+* [What technical aspects to consider when choosing an air quality sensing device?](what-technical-aspects-to-consider-when-choosing-an-air-quality-sensing-device.md)

@@ -1,3 +1,7 @@
+---
+icon: laptop-mobile
+---
+
 # What aspects to consider when choosing an infrastructure or platform?
 
 ## Description
@@ -32,6 +36,6 @@ Below, we list a series of factors to consider when choosing a platform, classif
 
 ## You might also be interested in….
 
-* [What are the main aspects you need to consider when managing citizen collected data?](broken-reference)
-* [What is data quality? How can we increase data quality in citizen gathered data?](broken-reference)
-* [Why is it important to document context and how does it help better understand collected data?](broken-reference)
+* [What are the main aspects you need to consider when managing citizen collected data?](../managing-data/what-are-the-main-aspects-you-need-to-consider-when-managing-citizen-collected-data.md)
+* [What is data quality? How can we increase data quality in citizen gathered data?](../managing-data/what-is-data-quality-how-can-we-increase-data-quality-in-citizen-gathered-data.md)
+* [Why is it important to document context and how does it help better understand collected data?](../managing-data/why-is-it-important-to-document-context-and-how-does-it-help-better-understand-collected-data.md)

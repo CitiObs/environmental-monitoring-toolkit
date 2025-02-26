@@ -1,3 +1,7 @@
+---
+icon: magnifying-glass-chart
+---
+
 # What variables can be measured with air quality sensing devices?
 
 ## Description
@@ -23,6 +27,6 @@ Some common air pollution variables that can be measured with sensing devices te
 
 ## You might also be interested in….
 
-* [What are the main elements of a sensing device?](broken-reference)
-* [What aspects to consider when choosing an infrastructure/platform?](broken-reference)
-* [How to ask the right questions in air quality monitoring?](broken-reference)
+* [What are the main elements of a sensing device?](what-are-the-main-elements-of-a-sensing-device.md)
+* [What aspects to consider when choosing an infrastructure/platform?](../environmental-monitoring/what-to-consider-before-conducting-environmental-monitoring.md)
+* [How to ask the right questions in air quality monitoring?](../environmental-monitoring/how-to-ask-the-right-questions-in-air-quality-monitoring.md)

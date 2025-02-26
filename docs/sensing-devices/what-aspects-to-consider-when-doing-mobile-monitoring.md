@@ -1,3 +1,7 @@
+---
+icon: person-biking-mountain
+---
+
 # What aspects to consider when doing mobile monitoring?
 
 ## Description
@@ -38,4 +42,4 @@ We can split mobile monitoring in 2 families: vehicle mounted and wearables.
 
 ## You might also be interested in….
 
-* [Why is it important to document context and how does it help better understand collected data?](broken-reference)
+* [Why is it important to document context and how does it help better understand collected data?](../managing-data/why-is-it-important-to-document-context-and-how-does-it-help-better-understand-collected-data.md)
