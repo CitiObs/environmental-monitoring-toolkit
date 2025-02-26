@@ -1,6 +1,7 @@
 ---
 icon: tablet-rugged
-coverY: 0
+cover: https://live.staticflickr.com/65535/53557925713_67884193fd_k.jpg
+coverY: -44
 layout:
   cover:
     visible: true
