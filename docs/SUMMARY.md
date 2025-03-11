@@ -4,6 +4,7 @@
   * [Glossary](readme/glossary.md)
   * [About](readme/about.md)
   * [Why this Toolkit?](readme/why-this-toolkit.md)
+  * [Contributing](readme/contributing.md)
 * [Environmental monitoring](environmental-monitoring/README.md)
   * [What to consider before conducting environmental monitoring?](environmental-monitoring/what-to-consider-before-conducting-environmental-monitoring.md)
   * [How to ask the right questions in air quality monitoring?](environmental-monitoring/how-to-ask-the-right-questions-in-air-quality-monitoring.md)
