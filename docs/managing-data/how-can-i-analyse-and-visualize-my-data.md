@@ -27,10 +27,18 @@ Technical tools should be tailored to their specific purpose and should avoid un
    3. Metrics extraction: this process involves using statistical or calculus methods to extract characteristics from the data. In other words, we can represent certain features of our data by using simple and comparable indexes. For instance, these represent what are the minima, maxima or average of our data, or how well sensor data represents our truth values.
 3. **Data visualization:** this involves converting data tables and pure numbers into visual representations of the data. Simple tools such as spreadsheets, can be useful for small amounts of data, but to handle bigger datasets, more capable frameworks may be needed. There is a wide variety of open source and free tools available for this purpose, and we have listed some popular tools in the table below, and there is a tool adapted for each level of expertise and data needs. It is generally coupled with the metrics extraction step below.
 
-## Useful resources
+### CitiObs Tools
+
+* [Python Libraries](https://www.python.org/): Python offers several libraries for working with air quality data, including Pandas, Matplotlib, and Plotly. Citizen scientists can use these libraries to load, clean, analyse, and visualize air quality datasets.
+* [TAPIS](https://tapis.grumets.cat/): TAPIS is a API explorer and a table manager. TAPIS reads data and metadata from some supported APIs and some data file formats and structures the data as tables that can be managed and transformed. Internally, everything is a table that has columns that represents fields and rows that represent records. The supported data sources are: Sensor Things API, STAplus, OGC API Features/Records, OGC Catalogue Service for the Web, S3 Services, Eclipse Data Connectors, CSV, DBF, JSON-LD, JSON and GeoJSON files. Once the data is represented as a table, it can be directly viewed, edited, semantically enriched, filtered, joint, grouped by, aggregated, etc. A part of a classical rows and columns tabular representation, data can be presented as bar charts, pie charts, scatter plots, and maps. TAPIS is integrated with [NiMMbus](https://github.com/grumets/nimmbus) (MiraMon implementation of the Geospatial User Feedback) and with the [MiraMon Map Browser](https://github.com/grumets/MiraMonMapBrowser).
+
+{% hint style="info" %}
+Examples for TAPIS can be found in the [recipes section of the help](https://tapis.grumets.cat/help/#recipes).
+{% endhint %}
+
+## Additional resources
 
 * [R Shiny](https://shiny.posit.co/): R Shiny is a web application framework for R, a popular programming language for data analysis and visualization. Citizen scientists can use R Shiny to develop interactive web-based dashboards and applications for analyzing and visualizing air quality data. R Shiny offers flexibility and customization options, allowing users to create tailored visualizations and share their findings with others.
-* [Python Libraries](https://www.python.org/): Python offers several libraries for working with air quality data, including Pandas, Matplotlib, and Plotly. Citizen scientists can use these libraries to load, clean, analyse, and visualize air quality datasets.
 * [ECSA WG Learning and education in Citizen Science](https://sites.google.com/view/citizen-science-education/home)**:** gathers school and higher education teachers; educators from museums, community spaces and after-school activities; educational researchers; scientists; and other communities interested in developing the informal learning and educational aspects of their Citizen Science projects.
 
 ## You might also be interested in….
