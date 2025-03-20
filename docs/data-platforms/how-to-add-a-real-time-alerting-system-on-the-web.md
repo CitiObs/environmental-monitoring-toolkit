@@ -1,3 +1,7 @@
+---
+icon: fishing-rod
+---
+
 # How to add a real-time alerting system on the web?
 
 ### Description
