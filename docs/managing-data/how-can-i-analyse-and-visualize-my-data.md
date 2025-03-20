@@ -30,6 +30,9 @@ Technical tools should be tailored to their specific purpose and should avoid un
 ### CitiObs Tools
 
 * [Python Libraries](https://www.python.org/): Python offers several libraries for working with air quality data, including Pandas, Matplotlib, and Plotly. Citizen scientists can use these libraries to load, clean, analyse, and visualize air quality datasets.
+  * STAplus-Python-Client: [https://github.com/securedimensions/STAplus-Python-Client](https://github.com/securedimensions/STAplus-Python-Client)
+  * Smart Citizen Connector [https://github.com/fablabbcn/smartcitizen-connector/](https://github.com/fablabbcn/smartcitizen-connector/)
+  * Jupyter Notebooks examples using these libraries: [https://github.com/CitiObs/data-recipes](https://github.com/CitiObs/data-recipes)
 * [TAPIS](https://tapis.grumets.cat/): TAPIS is a API explorer and a table manager. TAPIS reads data and metadata from some supported APIs and some data file formats and structures the data as tables that can be managed and transformed. Internally, everything is a table that has columns that represents fields and rows that represent records. The supported data sources are: Sensor Things API, STAplus, OGC API Features/Records, OGC Catalogue Service for the Web, S3 Services, Eclipse Data Connectors, CSV, DBF, JSON-LD, JSON and GeoJSON files. Once the data is represented as a table, it can be directly viewed, edited, semantically enriched, filtered, joint, grouped by, aggregated, etc. A part of a classical rows and columns tabular representation, data can be presented as bar charts, pie charts, scatter plots, and maps. TAPIS is integrated with [NiMMbus](https://github.com/grumets/nimmbus) (MiraMon implementation of the Geospatial User Feedback) and with the [MiraMon Map Browser](https://github.com/grumets/MiraMonMapBrowser).
 
 {% hint style="info" %}
