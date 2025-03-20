@@ -23,6 +23,7 @@
   * [What aspects to consider when choosing an infrastructure or platform?](data-platforms/what-aspects-to-consider-when-choosing-an-infrastructure-or-platform.md)
   * [What to consider for increasing interoperability among sensor data infrastructures?](data-platforms/what-to-consider-for-increasing-interoperability-among-sensor-data-infrastructures.md)
   * [What should be considered when building a sensor data platform for COs?](data-platforms/what-should-be-considered-when-building-a-sensor-data-platform-for-cos.md)
+  * [How to add a real-time alerting system on the web?](data-platforms/how-to-add-a-real-time-alerting-system-on-the-web.md)
 * [Managing data](managing-data/README.md)
   * [How do we increase traceability in data collected by citizens?](managing-data/how-do-we-increase-traceability-in-data-collected-by-citizens.md)
   * [How can I analyse and visualize my data?](managing-data/how-can-i-analyse-and-visualize-my-data.md)
