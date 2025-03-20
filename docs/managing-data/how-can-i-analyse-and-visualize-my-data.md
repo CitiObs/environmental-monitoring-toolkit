@@ -4,6 +4,8 @@ icon: chart-line
 
 # How can I analyse and visualize my data?
 
+<figure><img src="../.gitbook/assets/24368448418_d602723a10_h.jpg" alt=""><figcaption><p>Data tools</p></figcaption></figure>
+
 ## Description
 
 Visualization of air pollution data is crucial for understanding complex information and communicating findings effectively. By presenting air quality data in visually intuitive formats such as graphs, maps, and charts, stakeholders can quickly grasp patterns, trends, and relationships within the data. Visualization facilitates the identification of trends, anomalies, and spatial variations in pollution levels, enabling decision-makers to target interventions, allocate resources, and prioritize mitigation strategies accordingly. Moreover, clear and compelling visualizations raise public awareness about air pollution issues, educate communities about the sources and health impacts of pollution, and motivate individuals to take action to protect their health and the environment. Overall, visualizing air pollution data enhances understanding, promotes collaboration, and empowers stakeholders to address air quality challenges more effectively.
@@ -29,11 +31,17 @@ Technical tools should be tailored to their specific purpose and should avoid un
 
 ### CitiObs Tools
 
-* [Python Libraries](https://www.python.org/): Python offers several libraries for working with air quality data, including Pandas, Matplotlib, and Plotly. Citizen scientists can use these libraries to load, clean, analyse, and visualize air quality datasets.
+* [Orange data tools](https://github.com/CitiObs/orange-sensors): data analysis tools with visual programming as add-ons for [Orange Data Mining software](https://orangedatamining.com/). Widgets have been developed to access data from [Smart Citizen](https://smartcitizen.me) and [STAplus](https://docs.ogc.org/is/22-022r1/22-022r1.html).
+
+<figure><img src="../.gitbook/assets/orange-basic.png" alt=""><figcaption><p>Orange data tools</p></figcaption></figure>
+
+* [Python](https://www.python.org/) and [R](https://www.r-project.org/) libraries: there are several libraries for analysing data in python. In CitiObs we have done some libraries for accessing data and provided examples for analysing data in python/R.&#x20;
   * STAplus-Python-Client: [https://github.com/securedimensions/STAplus-Python-Client](https://github.com/securedimensions/STAplus-Python-Client)
   * Smart Citizen Connector [https://github.com/fablabbcn/smartcitizen-connector/](https://github.com/fablabbcn/smartcitizen-connector/)
   * Jupyter Notebooks examples using these libraries: [https://github.com/CitiObs/data-recipes](https://github.com/CitiObs/data-recipes)
 * [TAPIS](https://tapis.grumets.cat/): TAPIS is a API explorer and a table manager. TAPIS reads data and metadata from some supported APIs and some data file formats and structures the data as tables that can be managed and transformed. Internally, everything is a table that has columns that represents fields and rows that represent records. The supported data sources are: Sensor Things API, STAplus, OGC API Features/Records, OGC Catalogue Service for the Web, S3 Services, Eclipse Data Connectors, CSV, DBF, JSON-LD, JSON and GeoJSON files. Once the data is represented as a table, it can be directly viewed, edited, semantically enriched, filtered, joint, grouped by, aggregated, etc. A part of a classical rows and columns tabular representation, data can be presented as bar charts, pie charts, scatter plots, and maps. TAPIS is integrated with [NiMMbus](https://github.com/grumets/nimmbus) (MiraMon implementation of the Geospatial User Feedback) and with the [MiraMon Map Browser](https://github.com/grumets/MiraMonMapBrowser).
+
+<figure><img src="../.gitbook/assets/recipe02_01_observationsSortBy.png" alt=""><figcaption><p>Example of TAPIS tools</p></figcaption></figure>
 
 {% hint style="info" %}
 Examples for TAPIS can be found in the [recipes section of the help](https://tapis.grumets.cat/help/#recipes).
