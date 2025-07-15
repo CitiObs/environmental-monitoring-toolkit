@@ -18,6 +18,7 @@
   * [What technical aspects to consider when choosing an air quality sensing device?](sensing-devices/what-technical-aspects-to-consider-when-choosing-an-air-quality-sensing-device.md)
   * [What non-technical aspects to consider when choosing sensing devices?](sensing-devices/what-non-technical-aspects-to-consider-when-choosing-sensing-devices.md)
   * [What aspects to consider when writing guidance on how to install sensing devices?](sensing-devices/what-aspects-to-consider-when-writing-guidance-on-how-to-install-sensing-devices.md)
+  * [How to setup the Smart Citizen Kit for air quality monitoring?](sensing-devices/how-to-setup-the-smart-citizen-kit-for-air-quality-monitoring.md)
 * [Data platforms](data-platforms/README.md)
   * [What are the main components of a sensor data platform?](data-platforms/what-are-the-main-components-of-a-sensor-data-platform.md)
   * [What aspects to consider when choosing an infrastructure or platform?](data-platforms/what-aspects-to-consider-when-choosing-an-infrastructure-or-platform.md)
