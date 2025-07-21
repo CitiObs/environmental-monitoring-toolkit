@@ -8,7 +8,7 @@ This work is licensed as [CC BY-SA](https://creativecommons.org/licenses/by-sa/4
 
 You can cite and attribute this work as long as you use the following citation.
 
-> Castell, N. Volten H., Riallant D. and González Ó. (2023) Environmental monitoring toolkit, (CitiObs Deliverable 2.6)
+> Castell, N., Volten H., Riallant D. and González Ó. (2023) Environmental monitoring toolkit, (CitiObs Deliverable 2.6)
 
 ### You are free to: <a href="#rights" id="rights"></a>
 
