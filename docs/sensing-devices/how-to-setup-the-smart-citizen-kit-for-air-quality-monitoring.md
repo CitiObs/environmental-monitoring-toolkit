@@ -38,6 +38,15 @@ However, simple tools like screw drivers **are not included** and will need to b
 
 ### Components
 
+{% hint style="warning" %}
+For DIY kits, there is a small code printed on the box (a four-digit code with a mix of letters and numbers - see component photos below). You will need this code to identify your device while registering it. **It is important not to mix up the numbers,** so keep all the components from one box together and keep track of which device corresponds to which device number. \
+\
+We suggest you transfer the sticker from the box to the bottom of the PM sensor (see picture below) if there is not already a sticker with the same number. This way, you always have clear which device is which, and this placement gives easy access to check the code when the sensors are deployed.
+
+\
+<img src="../.gitbook/assets/Code.JPG" alt="" data-size="original">
+{% endhint %}
+
 #### Indoor Devices
 
 For **indoor DIY kits**, you will need the following components:
