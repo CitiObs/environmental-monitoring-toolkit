@@ -94,6 +94,7 @@ For **outdoor DIY kits**, you will need the following components:
   * 1 x M4x10mm screw
   * 1 x M4x25mm screw
   * 4 x M3x15mm screws
+* [Filtering foam](#user-content-fn-4)[^4] (large sheet of thin black foam, roughly A4 size)
 
 <div><figure><img src="../.gitbook/assets/Alliance-Case-Components-3.jpg" alt=""><figcaption><p>Outdoor DIY components (front)</p></figcaption></figure> <figure><img src="../.gitbook/assets/Alliance-Case-Components-4.jpg" alt=""><figcaption><p>Outdoor DIY components (back)</p></figcaption></figure></div>
 
@@ -188,6 +189,18 @@ These screws should only be screwed in far enough that the screws touch the mate
 
 <figure><img src="../.gitbook/assets/battery.jpg" alt=""><figcaption></figcaption></figure>
 
+* Cut and insert filtering foam to protect the sensors from water and dust buildup (this foam was included with other materials as a large sheet).
+
+{% hint style="warning" %}
+Note, this is the foam we are talking about...
+
+<img src="../.gitbook/assets/filtering-foam.jpg" alt="" data-size="original">
+
+
+{% endhint %}
+
+<figure><img src="../.gitbook/assets/IMG_4509.JPG" alt=""><figcaption></figcaption></figure>
+
 {% hint style="warning" %}
 Due to the power needs of the SCK2.3 (and SCK2.2), the SCK always needs a battery connected.
 {% endhint %}
@@ -221,7 +234,7 @@ The app will guide you through the steps. Let us know if there is any issue.
 
 ### Enable data forwarding to CitiObs tools
 
-The easiest way to enable forwarding is to visit your device on [the website](#user-content-fn-4)[^4] and click on the`EDIT button` on the bottom part of the graphs.
+The easiest way to enable forwarding is to visit your device on [the website](#user-content-fn-5)[^5] and click on the`EDIT button` on the bottom part of the graphs.
 
 ![Edit Smart Citizen Kit](../.gitbook/assets/edit-sck.png)
 
@@ -243,7 +256,7 @@ If you do not see this, please contact us at [info@smartcitizen.me](mailto:info@
 
 ### Enable notifications
 
-The easiest way to enable forwarding is to visit your device on [the website](#user-content-fn-4)[^4] and click on the`EDIT button` on the bottom part of the graphs.
+The easiest way to enable forwarding is to visit your device on [the website](#user-content-fn-5)[^5] and click on the`EDIT button` on the bottom part of the graphs.
 
 ![Edit Smart Citizen Kit](../.gitbook/assets/edit-sck.png)
 
@@ -269,7 +282,7 @@ Advanced devices (such as NO2 devices), requires handling of calibration data. F
 This hardware ID is not the same as the `device ID`. The `device ID` is the number you have after the smartcitizen.me/kits/ url where you see the data of your device. The `Station ID` is the one in the sticker. The `Station ID` is not meant to change, while the `device ID` can change as you can register your kit many times!
 {% endhint %}
 
-* The easiest way to enable forwarding is to visit your device on [the website](#user-content-fn-4)[^4] and click on the`EDIT button` on the bottom part of the graphs.
+* The easiest way to enable forwarding is to visit your device on [the website](#user-content-fn-5)[^5] and click on the`EDIT button` on the bottom part of the graphs.
 
 ![Edit Smart Citizen Kit](../.gitbook/assets/edit-sck.png)
 
@@ -378,4 +391,6 @@ While on SD-card mode, the device needs constant power (either USB or battery).
 
 [^3]: NOTE: This cover is different from the indoor one above. It has two support holes for screws and two notches for the lower screws of the umbrella.
 
-[^4]: [https://smartcitizen.me/kits/DEVICE-ID](https://smartcitizen.me/kits/%3CDEVICE-ID%3E)
+[^4]: This is **not** the foam that comes inside of each individual Smart Citizen Kit box.
+
+[^5]: [https://smartcitizen.me/kits/DEVICE-ID](https://smartcitizen.me/kits/%3CDEVICE-ID%3E)
