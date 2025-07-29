@@ -189,9 +189,13 @@ These screws should only be screwed in far enough that the screws touch the mate
 
 <figure><img src="../.gitbook/assets/battery.jpg" alt=""><figcaption></figcaption></figure>
 
-* Cut and insert filtering foam to protect the sensors from water and dust buildup (this foam was included with other materials as a large sheet).
-
 {% hint style="warning" %}
+Due to the power needs of the SCK2.3 (and SCK2.2), the SCK always needs a battery connected.
+{% endhint %}
+
+* Cut and insert filtering foam to protect the sensors from water and dust buildup (this foam was included with other materials as a large sheet, roughly A4).
+
+{% hint style="danger" %}
 Note, this is the foam we are talking about...
 
 <img src="../.gitbook/assets/filtering-foam.jpg" alt="" data-size="original">
@@ -200,10 +204,6 @@ Note, this is the foam we are talking about...
 {% endhint %}
 
 <figure><img src="../.gitbook/assets/IMG_4509.JPG" alt=""><figcaption></figcaption></figure>
-
-{% hint style="warning" %}
-Due to the power needs of the SCK2.3 (and SCK2.2), the SCK always needs a battery connected.
-{% endhint %}
 
 ## Device registration
 
