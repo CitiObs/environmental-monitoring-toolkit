@@ -234,13 +234,13 @@ The app will guide you through the steps. Let us know if there is any issue.
 
 ### Enable data forwarding to CitiObs tools
 
-The easiest way to enable forwarding is to visit your device on [the website](#user-content-fn-5)[^5] and click on the`EDIT button` on the bottom part of the graphs.
+The easiest way to enable forwarding is to visit your device on [the website](#user-content-fn-5)[^5] and click on the `EDIT button` on the bottom part of the graphs.
 
 ![Edit Smart Citizen Kit](../.gitbook/assets/edit-sck.png)
 
 Then, scroll down to the forwarding section and enable the checkbox. Make sure all the other settings are shown as in the image below, and to hit **update** when you are done!
 
-![Enable MQTT forwarding](../.gitbook/assets/advanced-options.png)
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>Enable MQTT forwarding</p></figcaption></figure>
 
 In addition, please add the `CitiObs` `tag` on your device:
 
@@ -266,6 +266,20 @@ Then, scroll down to the notifications section and enable both. This will trigge
 
 {% hint style="success" %}
 &#x20;Once you are done, make sure you hit **Update**!
+{% endhint %}
+
+### Create an _experiment_
+
+_An experiment is a way to group devices and share data with others through the Smart Citizen Platform. You can create an experiment by visiting your user profile:_
+
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+
+Fill out the relevant information such as `name`, `description`, `start and end dates` and add the devices on the `KITS` section. You can search there for your COs devices and create a collection of devices which is very handy to share later on.
+
+{% hint style="info" %}
+You can look at an example experiment at: [https://api.smartcitizen.me/ui/experiments/6](https://api.smartcitizen.me/ui/experiments/6)
+
+<img src="../.gitbook/assets/image (5).png" alt="" data-size="original">
 {% endhint %}
 
 ### Advanced devices
