@@ -1,18 +1,20 @@
 ---
 description: >-
-  This guide will help CitiObs cases to assemble devices, register them, and
+  This guide will help COs assemble the Smart Citizen Kits, register them, and
   deploy them to start collecting data.
 icon: head-side-goggles
 cover: ../.gitbook/assets/KIT-clips.jpg
 coverY: 0
 ---
 
-# How to setup the Smart Citizen Kit for air quality monitoring?
+# How to setup a Smart Citizen Kit for air quality monitoring?
 
-This guide will help CitiObs Alliance cases to assemble devices (for DIY kits), register them, and deploy them to start collecting data.
+This guide will help COs assemble Smart Citizen Kits, register them, and deploy them to start collecting data. The Smart Citizen Kit (SCK) is an open source environmental monitoring device, customizable and modular for multiple use cases.
 
 {% hint style="info" %}
 The devices provided as part of CitiObs are Smart Citizen Kits (or SCK). These devices are _open source, customizable_ environmental monitoring devices, and they are developed from Barcelona.
+
+If you are interested, you can order them from [LabMaker](https://www.labmaker.org/products/smart-citizen-kit) or [SeeedStudio](https://www.seeedstudio.com/Smart-Citizen2-3-p-6327.html). Contact us at [info@smartcitizen.me](mailto:info@smartcitizen.me) for more information on custom developments.
 {% endhint %}
 
 Depending on what type of device  you have (we also call them _kits)_, you will need to start at a different step:
@@ -232,7 +234,7 @@ Visit the _onboarding_ app at [start.smartcitizen.me](https://start.smartcitizen
 
 The app will guide you through the steps. Let us know if there is any issue.
 
-### Enable data forwarding to CitiObs tools
+### Enable data forwarding to CitiObs Platform
 
 The easiest way to enable forwarding is to visit your device on [the website](#user-content-fn-5)[^5] and click on the `EDIT button` on the bottom part of the graphs.
 
