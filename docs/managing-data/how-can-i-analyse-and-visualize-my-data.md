@@ -57,3 +57,5 @@ Examples for TAPIS can be found in the [recipes section of the help](https://tap
 * [What are the main aspects you need to consider when managing citizen collected data?](what-are-the-main-aspects-you-need-to-consider-when-managing-citizen-collected-data.md)
 * [What is data quality? How can we increase data quality in citizen gathered data?](what-is-data-quality-how-can-we-increase-data-quality-in-citizen-gathered-data.md)
 * [How to make data accessible to non-experts in a clear and understandable format?](how-to-make-data-accessible-to-non-experts-in-a-clear-and-understandable-format.md)
+* [How to add a data visualization to support decision?](../data-integration/how-to-add-visual-support-system.md)
+

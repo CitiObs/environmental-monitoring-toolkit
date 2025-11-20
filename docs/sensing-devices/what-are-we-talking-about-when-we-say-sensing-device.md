@@ -6,7 +6,7 @@ icon: tablet-rugged
 
 ## Description
 
-A sensing device, often referred to simply as a sensor, low-cost sensor, sensor node, etc., is a technological tool designed to detect and measure physical properties or environmental conditions. Sensors come in various types (e.g. static or mobile) and can be used to monitor a wide range of parameters such as temperature, pressure, humidity, light intensity, motion, sound, chemical composition, and more. In Citizen Science initiatives, a wide range of sensing devices can be employed to engage volunteers in environmental monitoring and data collection efforts. These devices are typically selected based on their ease of use, affordability, and suitability for non-experts..
+A sensing device, often referred to simply as a sensor, low-cost sensor, sensor node, etc., is a technological tool designed to detect and measure physical properties or environmental conditions. Sensors come in various types (e.g. static or mobile) and can be used to monitor a wide range of parameters such as temperature, pressure, humidity, light intensity, motion, sound, chemical composition, and more. In Citizen Science initiatives, a wide range of sensing devices can be employed to engage volunteers in environmental monitoring and data collection efforts. These devices are typically selected based on their ease of use, affordability, and suitability for non-experts.
 
 ## Why is this relevant?
 
