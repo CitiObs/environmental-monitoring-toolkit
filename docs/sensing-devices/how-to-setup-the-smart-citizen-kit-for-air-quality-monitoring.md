@@ -17,7 +17,7 @@ The devices provided as part of CitiObs are Smart Citizen Kits (or SCK). These d
 If you are interested, you can order them from [LabMaker](https://www.labmaker.org/products/smart-citizen-kit) or [SeeedStudio](https://www.seeedstudio.com/Smart-Citizen2-3-p-6327.html). Contact us at [info@smartcitizen.me](mailto:info@smartcitizen.me) for more information on custom developments.
 {% endhint %}
 
-Depending on what type of device  you have (we also call them _kits)_, you will need to start at a different step:
+Depending on what type of device you have (we also call them _kits)_, you will need to start at a different step:
 
 * If you have a DIY[^1] kit, you will need to follow the [device assembly section](how-to-setup-the-smart-citizen-kit-for-air-quality-monitoring.md#device-assembly) and then move on to the [device registration section](how-to-setup-the-smart-citizen-kit-for-air-quality-monitoring.md#device-registration).
 * For cases that requested pre-assembled kits, you can skip ahead to the [device registration section](how-to-setup-the-smart-citizen-kit-for-air-quality-monitoring.md#device-registration).
@@ -25,7 +25,7 @@ Depending on what type of device  you have (we also call them _kits)_, you will 
 {% hint style="warning" %}
 **Important note!**
 
-**Mobile kits and kits with more complex metrics (CO2 or NO2) are not available as DIY due to their complexity** and the need for more elaborate testing before shipment.&#x20;
+**Mobile kits and kits with more complex metrics (CO2 or NO2) are not available as DIY due to their complexity** and the need for more elaborate testing before shipment.
 
 These devices will been shipped pre-assembled regardless of the overall requested preference for the Alliance Case.
 {% endhint %}
@@ -41,7 +41,7 @@ However, simple tools like screw drivers **are not included** and will need to b
 ### Components
 
 {% hint style="warning" %}
-For DIY kits, there is a small code printed on the box (a four-digit code with a mix of letters and numbers - see component photos below). You will need this code to identify your device while registering it. **It is important not to mix up the numbers,** so keep all the components from one box together and keep track of which device corresponds to which device number. \
+For DIY kits, there is a small code printed on the box (a four-digit code with a mix of letters and numbers - see component photos below). You will need this code to identify your device while registering it. **It is important not to mix up the numbers,** so keep all the components from one box together and keep track of which device corresponds to which device number.\
 \
 We suggest you transfer the sticker from the box to the bottom of the PM sensor (see picture below) if there is not already a sticker with the same number. This way, you always have clear which device is which, and this placement gives easy access to check the code when the sensors are deployed.
 
@@ -175,7 +175,7 @@ Do not screw the components too tightly, they just need to be screwed into place
 These screws should only be screwed in far enough that the screws touch the material below, they do not need to be tightened further, doing so can damage the umbrella.
 {% endhint %}
 
-* Align the enclosure as indicated in the left image below.  Using the M4x10mm screw and the 3 HEX key connect the power supply box to the umbrella (bottom left hole, as indicated in the right image), then secure the enclosure using the M4x25mm screw (top left hole) with the 3 HEX key. This should lock the device in place. Check that the device does not move and that you can see the screw pushing the top of the device down securely.
+* Align the enclosure as indicated in the left image below. Using the M4x10mm screw and the 3 HEX key connect the power supply box to the umbrella (bottom left hole, as indicated in the right image), then secure the enclosure using the M4x25mm screw (top left hole) with the 3 HEX key. This should lock the device in place. Check that the device does not move and that you can see the screw pushing the top of the device down securely.
 
 <div><figure><img src="../.gitbook/assets/Alliance-Case-Guide-U3.jpg" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Alliance-Case-Guide-U4.jpg" alt=""><figcaption></figcaption></figure></div>
 
@@ -201,8 +201,6 @@ Due to the power needs of the SCK2.3 (and SCK2.2), the SCK always needs a batter
 Note, this is the foam we are talking about...
 
 <img src="../.gitbook/assets/filtering-foam.jpg" alt="" data-size="original">
-
-
 {% endhint %}
 
 <figure><img src="../.gitbook/assets/IMG_4509.JPG" alt=""><figcaption></figcaption></figure>
@@ -220,7 +218,7 @@ Once the device is assembled, you can proceed to register your device in the onl
 The _onboarding_ app will guide you through the process of the setup using simple language and a friendly graphic language.
 
 {% hint style="danger" %}
-**To read before you proceed**&#x20;
+**To read before you proceed**
 
 The Smart Citizen platform requires a free account to register a device or, in other words, each device requires an owner.
 
@@ -253,7 +251,7 @@ If you do not see this, please contact us at [info@smartcitizen.me](mailto:info@
 {% endhint %}
 
 {% hint style="success" %}
-&#x20;Once you are done, make sure you hit **Update**!
+Once you are done, make sure you hit **Update**!
 {% endhint %}
 
 ### Enable notifications
@@ -262,12 +260,12 @@ The easiest way to enable forwarding is to visit your device on [the website](#u
 
 ![Edit Smart Citizen Kit](../.gitbook/assets/edit-sck.png)
 
-Then, scroll down to the notifications section and enable both. This will trigger an email in case the device stops publishing. This step is crucial to ensure that, in the event of sensor malfunction, we can  avoid data loss. There are no additional notifications on that email.
+Then, scroll down to the notifications section and enable both. This will trigger an email in case the device stops publishing. This step is crucial to ensure that, in the event of sensor malfunction, we can avoid data loss. There are no additional notifications on that email.
 
 ![Enable notifications](../.gitbook/assets/notifications.png)
 
 {% hint style="success" %}
-&#x20;Once you are done, make sure you hit **Update**!
+Once you are done, make sure you hit **Update**!
 {% endhint %}
 
 ### Create an _experiment_
@@ -281,7 +279,7 @@ Fill out the relevant information such as `name`, `description`, `start and end 
 {% hint style="info" %}
 You can look at an example experiment at: [https://api.smartcitizen.me/ui/experiments/6](https://api.smartcitizen.me/ui/experiments/6)
 
-<img src="../.gitbook/assets/image (5).png" alt="" data-size="original">
+<img src="../.gitbook/assets/image (4) (1).png" alt="" data-size="original">
 {% endhint %}
 
 ### Advanced devices
@@ -347,25 +345,25 @@ Some basic deployment tips:
 The [Smart Citizen Documentation](https://docs.smartcitizen.me) provides all information related to the hardware, the data and what can be done with it. Some quick links:
 
 {% hint style="info" %}
-🚀 **Installation**: [start.smartcitizen.me](https://start.smartcitizen.me/)&#x20;
+🚀 **Installation**: [start.smartcitizen.me](https://start.smartcitizen.me/)
 
-🌍 **Platform**: [smartcitizen.me/kits](https://smartcitizen.me/kits)&#x20;
+🌍 **Platform**: [smartcitizen.me/kits](https://smartcitizen.me/kits)
 
 :book: **Docs**: [docs.smartcitizen.me](https://docs.smartcitizen.me/)
 
-📟 **Hardware documentation**: [features](https://docs.smartcitizen.me/hardware/kit/features/)&#x20;
+📟 **Hardware documentation**: [features](https://docs.smartcitizen.me/hardware/kit/features/)
 
-💻 **API**: [api.smartcitizen.me](https://api.smartcitizen.me/)&#x20;
+💻 **API**: [api.smartcitizen.me](https://api.smartcitizen.me/)
 
-:chart: **Data tools**: [data tools](https://docs.smartcitizen.me/data/data-tools/)&#x20;
+:chart: **Data tools**: [data tools](https://docs.smartcitizen.me/data/data-tools/)
 
-💬 **Discuss**: [forum.smartcitizen.me](https://forum.smartcitizen.me/)&#x20;
+💬 **Discuss**: [forum.smartcitizen.me](https://forum.smartcitizen.me/)
 
-❓ **Support**: [support@smartcitizen.me](mailto:support@smartcitizen.me)&#x20;
+❓ **Support**: [support@smartcitizen.me](mailto:support@smartcitizen.me)
 
-✨ **Something big?**: [info@smartcitizen.me](mailto:info@smartcitizen.me)&#x20;
+✨ **Something big?**: [info@smartcitizen.me](mailto:info@smartcitizen.me)
 
-🚨 **Platform status**: [status.smartcitizen.me ](https://status.smartcitizen.me/)
+🚨 **Platform status**: [status.smartcitizen.me](https://status.smartcitizen.me/)
 
 ☔ **Download Enclosures**: [enclosures.smartcitizen.me](https://enclosures.smartcitizen.me/)
 {% endhint %}
@@ -385,14 +383,14 @@ Battery characteristics can be found in the following [link](https://docs.smartc
 **Wi-Fi Mode (online)** This is the standard mode and requires a Wi-Fi connection. In this way, the device will publish data every minute (time resolution can be configured) on the smartcitizen.me platform. If a micro SD card is inserted, the data will be stored in duplicate as a backup.
 
 {% hint style="info" %}
-The kit supports Wi-Fi WEP, WPA/WPA2 and open networks, those the standard Wi-Fi networks found in domestic and small businesses environments. However, it does not support WPA/WPA2 Enterprise networks such as EDUROAM or networks with captive portals such as those found in Airports and Hotels.&#x20;
+The kit supports Wi-Fi WEP, WPA/WPA2 and open networks, those the standard Wi-Fi networks found in domestic and small businesses environments. However, it does not support WPA/WPA2 Enterprise networks such as EDUROAM or networks with captive portals such as those found in Airports and Hotels.
 {% endhint %}
 
 ### **SD Mode (offline)**
 
 If we do not have an internet connection, we can use the SD mode. In this case, the device will record the data on the micro SD card. Later we can read the card using a card reader. The recorded data can be visually explored in a spreadsheet but also published on the platform utilising the [UPLOAD CSV](https://docs.smartcitizen.me/Guides/getting%20started/Uploading%20SD%20Card%20Data/?h=csv) option.
 
-### **Limitations**&#x20;
+### **Limitations**
 
 {% hint style="danger" %}
 While on SD-card mode, the device needs constant power (either USB or battery).
