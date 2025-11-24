@@ -1,12 +1,17 @@
-# How to generate Decision Ready Information for Analysis Ready Data?
+---
+icon: head-side-gear
+---
 
-### Description
+# How to generate Decision Ready Information based on Analysis Ready Data?
+
+## Description
 
 ...
 
-### Why is this relevant?
+## Why is this relevant?
 
 ...
 
-### Useful resources
+## Useful resources
 
+## You might also be interested in
