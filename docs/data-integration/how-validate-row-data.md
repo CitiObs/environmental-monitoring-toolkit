@@ -4,7 +4,7 @@ icon: calendar-check
 
 # How to validate raw data to create Analysis Ready Data?
 
-\#How to validate row data to create Analysis Ready Data?
+
 
 ## Description
 
