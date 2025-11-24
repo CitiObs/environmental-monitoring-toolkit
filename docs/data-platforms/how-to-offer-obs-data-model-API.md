@@ -9,7 +9,7 @@ SensorThings API (STA) is an open standard developed by the Open Geospatial Cons
 
 ![STA Sensing Entities](../.gitbook/assets/OGCSTASensingEntitiesDiagramm.png)
 
-Figure XX: OGC STA Sensing Entities Diagramm
+Figure: OGC STA Sensing Entities Diagram
 
 STAPlus is an extension to the OGC SensorThings API (STA) designed to improve the handling of sensor data, especially for multi-user environments and citizen science applications. It adds features for expressing ownership, licensing, and grouping of observations, addressing requirements such as user association, licensing for data re-use, and relating observations with other resources and supporting interoperability and compliance with FAIR principles. STAPlus prevents personal data storage in the API itself, keeping the model unbiased and privacy-compliant.
 
