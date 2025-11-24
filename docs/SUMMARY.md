@@ -35,7 +35,7 @@
   * [What are the main aspects you need to consider when managing citizen collected data?](managing-data/what-are-the-main-aspects-you-need-to-consider-when-managing-citizen-collected-data.md)
   * [Why is it important to document context and how does it help better understand collected data?](managing-data/why-is-it-important-to-document-context-and-how-does-it-help-better-understand-collected-data.md)
 * [Data integration](data-integration/README.md)
-  * [How to deploy an architectural stack that transforms row data to Decision Ready Information?](data-integration/how-deploy-arch-stack.md)
+  * [How to deploy an architectural stack that transforms raw data to Decision Ready Information?](data-integration/how-deploy-arch-stack.md)
   * [How to validate raw data to create Analysis Ready Data?](data-integration/how-validate-row-data.md)
   * [How to centralize access to Analysis Ready Data?](data-integration/how-centralize-access-ARD.md)
   * [How to generate Decision Ready Information based on Analysis Ready Data?](data-integration/how-generate-DRI-from-ARD.md)
