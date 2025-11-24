@@ -279,7 +279,7 @@ Fill out the relevant information such as `name`, `description`, `start and end 
 {% hint style="info" %}
 You can look at an example experiment at: [https://api.smartcitizen.me/ui/experiments/6](https://api.smartcitizen.me/ui/experiments/6)
 
-<img src="../.gitbook/assets/image (4) (1).png" alt="" data-size="original">
+<img src="broken-reference" alt="" data-size="original">
 {% endhint %}
 
 ### Advanced devices
