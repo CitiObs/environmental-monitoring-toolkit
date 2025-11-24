@@ -1,12 +1,19 @@
+---
+icon: palette
+---
+
 # How to add a data visualization to support decision?
-### Description
+
+## Description
 
 ...
 
-### Why is this relevant?
+## Why is this relevant?
 
 ...
 
-### Useful resources
+## Useful resources
 
 ...
+
+## You might also be interested in
