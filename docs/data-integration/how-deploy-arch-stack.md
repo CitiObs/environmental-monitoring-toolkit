@@ -1,4 +1,8 @@
-# How to deploy an architectural stack that transforms row data to Decision Ready Information?
+---
+icon: cart-flatbed-boxes
+---
+
+# How to deploy an architectural stack that transforms raw data to Decision Ready Information?
 
 ### Description
 
