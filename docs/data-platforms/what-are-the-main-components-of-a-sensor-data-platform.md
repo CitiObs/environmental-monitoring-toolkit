@@ -18,7 +18,7 @@ The following main components are generic to a typical sensor data platform:
 
 ![Typical sensor data platform architecture](../.gitbook/assets/citiobs-platform-components.png)
 
-Figure 4. Main components of a sensor data platform
+Figure. Main components of a sensor data platform
 
 1. **Data ingestion:** the data ingestion component oversees the interaction with the devices and _ingest_ the data coming from them. The complexity of this block will depend on the transmission protocol and format that the devices send the data in. This block needs to be always running, especially if the sensing devices do not have ways to store data locally.
 2. **Data processing**: data processing pipelines take care of any transformation (typically mathematical) that the sensor data requires before making it to the database (DB). This involves pre-processing data to handle noise and outliers, applying calculations to raw data, or applying algorithms for feature extraction and pattern recognition, as well as more advanced analytics tools (e.g., machine learning models) for predictive analysis and anomaly detection.
