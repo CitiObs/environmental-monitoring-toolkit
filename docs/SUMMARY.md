@@ -45,4 +45,3 @@
   * [How to address the lack of confidence in the use of sensor technology?](community/how-to-address-the-lack-of-confidence-in-the-use-of-sensor-technology.md)
   * [How to promote involvement and participation in environmental monitoring to minimize data gaps?](community/how-to-promote-involvement-and-participation-in-environmental-monitoring-to-minimize-data-gaps.md)
   * [How to Bring a Health Lens to Environmental Monitoring?](community/how-to-bring-a-health-lens-to-environmental-monitoring.md)
-  * [How can I analyse the data collected by deployed sensors?](community/how-can-i-analyse-the-data-collected-by-deployed-sensors.md)
