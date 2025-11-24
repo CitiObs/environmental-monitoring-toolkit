@@ -227,10 +227,7 @@ GET /Things?$expand=Locations,Datastreams
 ## Support
 - Consult API documentation
 - Review the SensorThings API standard
-- Contact the VirtualAir development team
-
 ---
-
 
 ## You might also be interested in
 
