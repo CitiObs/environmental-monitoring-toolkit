@@ -113,7 +113,7 @@ For **outdoor DIY kits**, you will need the following components:
 
 **Tools (not included, but needed)**
 
-* 1 x Phillips screw driver
+* 3 x Phillips screw driver
 
 ### Assembly Steps
 
