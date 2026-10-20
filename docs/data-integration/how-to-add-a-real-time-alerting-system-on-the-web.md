@@ -2,7 +2,7 @@
 icon: fishing-rod
 ---
 
-# How to add a real-time alerting system on the web?
+# How to add a real-time alerting system on the web? Using SensorThings API and WebSub
 
 ### Description
 
@@ -29,7 +29,7 @@ Based on OGC STA-WebSub, a complete alerting system over the Web for IoT sensors
 * [FROST-Server](https://github.com/FraunhoferIOSB/FROST-Server) is the open source reference implementation for OGC SensorThings API v1.1 by Fraunhofer
 * [FROST-Server-WebSub](https://github.com/securedimensions/FROST-Server-WebSub) is the open source implementation of a FROST-Server plugin that enables STA-WebSub
 * [STA-WebSub-Hub](https://github.com/securedimensions/STA-WebSub-Hub) is an open source implementation of a STA-WebSub Hub that demonstrates the W3C WebSub subscription protocol and the subscription/notification with a STA service (FROST-Server)
-* [STA-WebSub-Discovery](\[https:/github.com/securedimensions/STA-WebSub-Subscriber]\(https:/github.com/securedimensions/STA-WebSub-Discovery\)/) is an open source implementation to demonstrate the use of STA-Websub for discovering topics (executed by subscribers)
+* [STA-WebSub-Discovery](https://github.com/CitiObs/environmental-monitoring-toolkit/blob/main/docs/data-integration/\[https:/github.com/securedimensions/STA-WebSub-Subscriber]\(https:/github.com/securedimensions/STA-WebSub-Discovery\)/README.md) is an open source implementation to demonstrate the use of STA-Websub for discovering topics (executed by subscribers)
 * [STA-WebSub Subscriber](https://github.com/grumets/ganxet) is an example implementation of a STA-WebSub Subscriber
 * [TAPIS](how-to-add-a-real-time-alerting-system-on-the-web.md) is an example implementation of a Web-Application to visualize alerts received via a STA-WebSub Hub
 
