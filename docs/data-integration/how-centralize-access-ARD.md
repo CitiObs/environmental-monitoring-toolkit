@@ -61,7 +61,12 @@ VirtualAir forwards raw observations unchanged by default. On top of that:
 * **Optional hourly aggregation** on request via **MultiDatastreams**: mean, min, max and standard deviation.
 * A **completeness count** (number of observations per hour) is returned with each aggregate.
 
+> [!NOTE]
+> VirtualAir provides a custom `/v1.1/MultiDatastreams` endpoint for hourly aggregation. VirtualAir computes these aggregates from source Datastream and Observations. Upstream platforms do not need to support MultiDatastreams. This functionality does not imply full support for the standard MultiDatastream extension
+
 ***
+
+
 
 ### 3. Simplified Data Discovery
 
