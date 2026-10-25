@@ -18,6 +18,8 @@ VirtualAir provides a unified way to centralize and access Analysis Ready Data (
 
 It uses a two-tier architecture that separates observatory registration from data access, enabling integration of STA-based sensor networks while ensuring full interoperability through standardized APIs.
 
+Observations are not stored in VirtualAir. They remain in each source observatory and are fetched live on every request. Only the registry — service addresses and metadata — is a database, and the observatory list is cached for about 10 minutes.
+
 ### **1. VirtualAirApi**
 
 Central registry service for **SensorThings observatory metadata**.
@@ -51,16 +53,20 @@ VirtualAir reduces fragmentation by:
 
 ***
 
-### 2. Analysis Ready Data Built-In
+### 2. Aggregation and quality
 
-VirtualAir delivers ARD features out of the box:
+VirtualAir forwards raw observations unchanged by default. On top of that:
 
-* Automated **hourly aggregations** (min, max, avg, stddev)
-* **Quality metrics** for each aggregation window
-* **Temporal aggregation** via MultiDatastreams
-* **Standardized units** (e.g., μg/m³)
+* **Source quality fields are passed through** — where the underlying platform provides them (e.g. `quality_level`, screening flags, uncertainty), they are carried on each observation unchanged.
+* **Optional hourly aggregation** on request via **MultiDatastreams**: mean, min, max and standard deviation.
+* A **completeness count** (number of observations per hour) is returned with each aggregate.
+
+> [!NOTE]
+> VirtualAir provides a custom `/v1.1/MultiDatastreams` endpoint for hourly aggregation. VirtualAir computes these aggregates from source Datastream and Observations. Upstream platforms do not need to support MultiDatastreams. This functionality does not imply full support for the standard MultiDatastream extension
 
 ***
+
+
 
 ### 3. Simplified Data Discovery
 
@@ -84,7 +90,7 @@ Users can:
 
 VirtualAir supports:
 
-* **STAPLUS**
+* **OGC SensorThings API v1.1** (standard STA; STAplus endpoints are also supported but not required)
 * **ISO 8601** time formats
 * **GeoJSON**
 * **OGC O\&M** (Observation & Measurements)
@@ -94,15 +100,14 @@ VirtualAir supports:
 ## System Architecture
 
 * Observatory owners register their SensorThings API endpoint using the VirtualAir Web Interface or by calling the VirtualAirApi directly.
-* The VirtualAirApi validates the endpoint and stores its metadata (base URL, version, extensions, unique code) in the PostgreSQL registry database.
+* The VirtualAirApi records the endpoint and stores its metadata (base URL, version, extensions, unique code) in the PostgreSQL registry database.
 * Data consumers query the VirtualAirDataApi, a unified STA-compatible gateway.
 * The Data API:
   * Retrieves metadata from the registry
   * Connects to the registered SensorThings observatories
   * Fetches observations
-  * Performs automatic aggregation (hourly, daily, etc.)
-  * Produces Analysis Ready Data (ARD)
-* The ARD is returned to the consumer as a standardized SensorThings API v1.1 JSON response.
+  * Optionally aggregates observations by hour when requested (via MultiDatastreams)
+* The merged response is returned to the consumer as a standardized SensorThings API v1.1 JSON response.
 
 ## How to Use VirtualAir
 
@@ -112,7 +117,7 @@ VirtualAir supports:
 
 Visit: https://web-virtualair.nilu.no/
 
-Register your **STAPLUS-compatible SensorThings observatory**.
+Register your **SensorThings API v1.1 observatory** (STAplus is optional).
 
 Provide:
 
@@ -160,32 +165,40 @@ JWT
 
 **Base URL:** https://api-virtualair.nilu.no/v1.1
 
-Implements the **full SensorThings API v1.1**.
+Exposes a **SensorThings API v1.1** gateway across all registered observatories.
+
+**A complete example**
+
+```http
+GET https://api-virtualair.nilu.no/v1.1/Observations?$top=2
+```
+
+Each observation contains: `@iot.id` (the namespaced ID, e.g. `KNJV_1`), `result` (the measured value; its unit is on the parent Datastream), `phenomenonTime` (when it was measured), `parameters` (source quality fields, passed through unchanged), and `properties.origin` (added by VirtualAir to show the source observatory). Follow `@iot.nextLink` for the next page.
 
 ### Example Queries
 
-1. **Discover all observatories**
+1. **List all sensor devices across all observatories**
 
 ```http
 GET /Things
 ```
 
-2. \*\*Observations from a Datastream
+2. \*\*Observations from one Datastream
 
 ```http
-GET /Things(1)/Datastreams(123)/Observations
+GET /Datastreams('KNJV_5001')/Observations?$top=3
 ```
 
 3. \*\*Filter by time
 
 ```http
-GET /Datastreams(123)/Observations?$filter=phenomenonTime ge 2024-01-01T00:00:00Z and phenomenonTime le 2024-01-31T23:59:59Z
+GET /Datastreams(‘KNJV_5001’)/Observations?$filter=phenomenonTime ge 2024-01-01T00:00:00Z and phenomenonTime le 2024-01-31T23:59:59Z
 ```
 
 4. \*\*Hourly aggregated ARD
 
 ```http
-GET /MultiDatastreams?$filter=properties/aggregateUnit eq 'Hours' and properties/aggregateFor eq '/Datastreams(123)'&$expand=Observations
+GET /MultiDatastreams?$filter=properties/aggregateUnit eq 'Hours' and properties/aggregateFor eq '/Datastreams(KNJV_5001)'&$expand=Observations
 ```
 
 **Response includes:**
@@ -194,7 +207,6 @@ GET /MultiDatastreams?$filter=properties/aggregateUnit eq 'Hours' and properties
 * Min / Max values
 * Standard deviation
 * Observation counts
-* Expand related entities
 
 5. \*\*Expand related entities
 
@@ -215,7 +227,7 @@ GET /Things?$expand=Locations,Datastreams
 
 ### Features
 
-* Caching
+* Caching of the observatory list (10 minutes; observations are always fetched live)`
 * Pagination
 * OData query support
 * Standardized error responses
