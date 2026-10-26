@@ -69,5 +69,5 @@ The local-scale results are research demonstrations rather than a general public
 
 ## You might also be interested in
 
-- [TAPIS: A simple web tool for analysing citizen-generated data](https://citiobs.eu/citiobs-knowledge-platform/tapis/).
-- [CitiObs Environmental Monitoring Toolkit](https://monitoring.toolkit.citiobs.eu/) — sensor deployment, data quality and integration guidance.
+- [How to validate raw data](https://monitoring.toolkit.citiobs.eu/data-integration/how-validate-raw-data) — quality checks to apply to sensor data before generating ARD.
+- [How to centralize access to ARD](https://monitoring.toolkit.citiobs.eu/data-integration/how-centralize-access-ard) — making analysis-ready data available from a single access point.
