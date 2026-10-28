@@ -65,12 +65,12 @@ The workflow has two phases:
 
 1. **Setting up a subscription:** The subscriber identifies a query describing the observations it wants to receive and registers a subscription with the hub. The subscription includes the information needed to identify the topic of interest and deliver notifications to the subscriber.
 
-2. **Delivering notifications :** When a new observation becomes available and matches the subscribed query, the system can notify the subscriber through the hub. The receiving application can then process the notification.
+2. **Delivering notifications:** When a new observation becomes available and matches the subscribed query, the system can notify the subscriber through the hub. The receiving application can then process the notification.
 
 
-![Figure 1.  WebSub Flow Diagram.](../.gitbook/assets/WebSubFlowDiagram.png)
+![Figure 1. WebSub flow diagram.](../.gitbook/assets/WebSubFlowDiagram.png)
 
-*Figure 1. WebSub flow diagram showing the the publisher, the hub and the subscriber, and the separate flows for subscription registration and notification delivery.*
+*Figure 1. WebSub flow diagram showing the publisher, hub and subscriber, with separate flows for subscription registration and notification delivery.*
 
 The important point is that the subscription is established before updates arrive. The application does not need to repeatedly ask whether new matching observations are available.
 
@@ -132,7 +132,7 @@ Before starting, make sure that you have access to the following resources:
 - **A STA-WebSub hub:** a service that manages subscriptions and distributes notifications.
 - **A subscriber endpoint:** an application or webhook capable of receiving notifications.
 
-The hosted demonstration services are listed in [Section 4.2](#42-hosted-demonstration-services). If a service requires authentication or specific configuration, follow the instructions provided for that service.
+The hosted demonstration services are listed in [Hosted demonstration services](#hosted-demonstration-services). If a service requires authentication or specific configuration, follow the instructions provided for that service.
 
 ### Step 1 — Explore the sensor data
 
@@ -148,7 +148,11 @@ At this stage, the goal is to understand what data is available and which observ
 
 *Figure: Exploring the STAplus service. The `Datastreams` collection lists the available data streams, including the `PM 2.5` datastream (ID 17) shown in the screenshot.*
 
-The service endpoint used in this example is the [STAplus SensorThings API service](https://citiobs.demo.secure-dimensions.de/staplustest/v1.1/Datastreams).
+![Exploring the STAplus SensorThings API service through TAPIS](../.gitbook/assets/Exploring_STAPLUs_SecureDimension_withTAPIS.png)
+
+*Figure: Exploring the STAplus service using the TAPIS tool.*
+
+The service endpoint used in this example is the [STAplus SensorThings API service](https://citiobs.demo.secure-dimensions.de/staplustest/v1.1).
 
 ### Step 2 — Define the observations you want to receive
 
@@ -156,13 +160,17 @@ Define a query that describes the observations relevant to your purpose.
 
 For this example, we will subscribe to observations whose observed property is `PM 2.5` and whose result is greater than 100 µg/m³.
 
+![Filtering the Observations with TAPIS](../.gitbook/assets/Filter_STA_OBS_with_TAPIS.png)
+
+*Figure: Filtering observations using the TAPIS tool.*
+
 The topic URL is a regular SensorThings API query:
 
 ```text
-https://citiobs.demo.secure-dimensions.de/staplustest/v1.1/Observations?$filter=Datastream/ObservedProperty/name%20eq%20%27PM%202.5%27%20and%20result%20gt%20100
+https://citiobs.demo.secure-dimensions.de/staplustest/v1.1/Observations?$filter=Datastream/ObservedProperty/name eq 'PM 2.5' and result gt 100
 ```
 
-This query selects observations from any datastream whose observed property is named `PM 2.5`, provided that `result` is greater than 100.  To monitor one station only, add an additional filter for the relevant `Thing` or datastream.
+This query selects observations from any datastream whose observed property is named `PM 2.5`, provided that `result` is greater than 100. To monitor one station only, add an additional filter for the relevant `Thing` or `Datastream`.
 
 The query can specify conditions supported by the SensorThings API, such as:
 
@@ -182,21 +190,22 @@ Discovery helps the subscriber identify the information needed to establish a su
 
 At this stage, you are checking that the query can be used for notifications, rather than creating the subscription itself.
 
+![Discovering the topic through a subscriber client](../.gitbook/assets/DiscoveringATopicWithSimpleClient.png)
+
+*Figure: Discovering a topic with a simple subscriber client. The client sends an HTTP HEAD request to the STA service for the topic it wants to subscribe to. The STA service responds with links that identify the subscription endpoint and the topic.*
+
 
 ### Step 4 — Register the subscription
 
-Register a subscription with the STA-WebSub hub using the information obtained during discovery.
+Register a subscription with the STA-WebSub Hub using the information obtained during discovery.
 
 The subscription identifies the topic of interest and specifies where notifications should be delivered. The destination is a subscriber endpoint capable of receiving the notifications.
 
 Once the subscription has been successfully established, the hub can use it to deliver relevant updates when they become available.
 
-*[Add a screenshot of the subscription request or the interface used to register the subscription.]*
-
 ### Step 5 — Receive and inspect a notification
 
 When a new observation matching the subscribed query becomes available, the subscriber can receive a notification through its registered endpoint.
-
 
 Inspect the notification and compare it with the corresponding observation in the SensorThings API service. Check the information available in the message, such as the observation identifier, measured value, unit and observation time, where these fields are provided.
 
@@ -204,19 +213,21 @@ You can also open the topic query directly to inspect observations that match th
 
 ```json
 {
-	"@iot.selfLink":"https://citiobs.demo.secure-dimensions.de/staplustest/v1.1/Observations(323303)",
-@iot.id":323303,
-	"phenomenonTime":"2024-01-23T09:11:29Z",
-	"resultTime":"2024-01-23T09:11:29Z",
-	"result":121.0,
-	"Datastream@iot.navigationLink":"https://citiobs.demo.secure-dimensions.de/staplustest/v1.1/Observations(323303)/Datastream",
-	"FeatureOfInterest@iot.navigationLink":"https://citiobs.demo.secure-dimensions.de/staplustest/v1.1/Observations(323303)/FeatureOfInterest"
+  "@iot.selfLink": "https://citiobs.demo.secure-dimensions.de/staplustest/v1.1/Observations(323303)",
+  "@iot.id": 323303,
+  "phenomenonTime": "2024-01-23T09:11:29Z",
+  "resultTime": "2024-01-23T09:11:29Z",
+  "result": 121.0,
+  "Datastream@iot.navigationLink": "https://citiobs.demo.secure-dimensions.de/staplustest/v1.1/Observations(323303)/Datastream",
+  "FeatureOfInterest@iot.navigationLink": "https://citiobs.demo.secure-dimensions.de/staplustest/v1.1/Observations(323303)/FeatureOfInterest"
 }
 ```
 
 A successful subscription establishes the mechanism for future updates, but it does not necessarily produce an immediate notification. If the selected data service does not generate new matching observations during the demonstration, you may need to wait for an update or use a documented test mechanism, if one is available.
 
-*[Add a screenshot of an actual notification received by the subscriber, with the relevant fields highlighted.]*
+![Subscription and alerting with TAPIS](../.gitbook/assets/Alerting_with_TAPIS.png)
+
+*Figure: Retrieving PM2.5 observations above 100 µg/m³ and subscribing to notifications for new observations matching this topic.*
 
 ### What have you learned?
 
@@ -236,17 +247,23 @@ The hosted demonstration is intended to help you understand the workflow. To dep
 
 You will also need to consider authentication and access control, secure communication, subscription management and notification handling. The next section describes the technical architecture and the main implementation considerations.
 
-## Technical implementation. How does STA-WebSub work?
+## Technical implementation: How does STA-WebSub work?
 
 This section explains how STA-WebSub works with SensorThings API, why it can be useful for distributing notifications, and the main steps involved in discovery, subscription and delivery.
 
 ### SensorThings API and its interfaces
 
-Data readings from different sensors can be made available using the [OGC Sensor Things API](https://docs.ogc.org/is/18-088/18-088.html), also known as STA. STA provides an HTTP interface and an MQTT interface. The **HTTP interface** is commonly used to read observations (data readings provided by the connected sensors) and create or manage entities such as `Datastreams` and `Things`, that are required for sensors to publish observations. The **MQTT interface** is typically used by low cost sensors or connected sensors to publish their readings. MQTT can also support subscriptions to events, but using it as the external notification mechanism for a large and diverse set of subscribers raises operational considerations.
+Data from different sensors can be made available through the [OGC SensorThings API](https://docs.ogc.org/is/18-088/18-088.html), also known as STA.
+
+STA provides an HTTP interface and an MQTT interface. The **HTTP interface** is commonly used to retrieve observations and to create or manage entities such as `Datastreams` and `Things`. The **MQTT interface** can be used by connected sensors to publish their readings. MQTT also supports event subscriptions, but using it as the external notification mechanism for a large and diverse set of subscribers raises operational considerations.
 
 ### Why combine SensorThings API with WebSub?
 
-When it comes to establishing a real-time (or near real time) alerting system, it is necessary that an interested client can receive alerts at the time they take place. This requires some kind of a subscription mechanism that allows the client to register for events. The STA MQTT interface can be used to subscribe for events but it requires that the MQTT port(s) can make it through all intermediate firewalls. Also, it is required that the underlying TCP socket remains connected at all time. Otherwise, the client and server need to implement error handling properly which is very complicated. So, even though the MQTT interface could be used to build an alerting system for IoT devices, there are performance and security arguments that indicate not to use the MQTT build into a STA deployment: Using the same MQTT broker for sensors to publish data and to deliver events to all subscribed clients is difficult to scale as the load heavily depend on the number of subscribers and the events they subscribe to. For scaling an MQTT broker without controlling the subscriptions is difficult as there could be subscribers to very chatty events like `v1.1/Observations`. Establishing re-scaling of the MQTT broker is almost impossible and introducing access control requires a proprietary layer to be implemented. These challenges in summary indicate to leverage the STA MQTT interface for registered sensors to publish their readings. But how to establish the alerting-system to support the scaling notifications of events?
+To build a real-time (or near-real-time) alerting system, an interested client needs a way to receive notifications when relevant events occur. This requires a subscription mechanism that allows the client to register its interest in particular events.
+
+The STA MQTT interface can be used to subscribe to events, but MQTT traffic must be able to pass through any intervening firewalls, and the underlying TCP socket connection generally needs to remain open. If the connection is interrupted, the client and server must handle reconnection and error recovery, which can add complexity.
+
+Although MQTT can be used to build alerting systems for IoT devices, there are performance and security considerations when using the MQTT broker built into an STA deployment as the external notification mechanism. Using the same MQTT broker for sensors to publish data and to deliver events to all subscribed clients can be difficult to scale, because the load heavily depends on the number of subscribers and the events to which they subscribe. For scaling an MQTT broker without controlling the subscriptions is difficult as there could be subscribers to very chatty events like `v1.1/Observations`. Establishing re-scaling of the MQTT broker is almost impossible and introducing access control requires a proprietary layer to be implemented. These challenges in summary indicate to leverage the STA MQTT interface for registered sensors to publish their readings. But how to establish the alerting-system to support the scaling notifications of events?
 
 The [W3C WebSub](https://www.w3.org/TR/websub/) standard defines a protocol for subscribing to topics on the Web and distributing updates asynchronously. It defines three main roles:
 
@@ -254,7 +271,7 @@ The [W3C WebSub](https://www.w3.org/TR/websub/) standard defines a protocol for 
 - **Hub:** handles subscription requests and distributes updates to subscribers.
 - **Subscriber:** discovers a topic at a publisher that can be used for subscription, subscribes to it through the associated hub and receives updates.
 
-In the context of SensorThings API, the discovery of self-defined topics provides the flexibility for any client to shape the event trigger and data structure using a regular STA query.
+In the context of OGC SensorThings API, the discovery of self-defined topics provides the flexibility for any client to shape the event trigger and data structure using a regular STA query.
 
 STA-WebSub adapts the WebSub protocol to SensorThings API v1.1. It allows a client to use a SensorThings API query to define both the observations of interest and the data returned when a matching update occurs.
 
@@ -262,11 +279,17 @@ The official standard is the [OGC SensorThings API Extension: WebSub Asynchronou
 
 ### Why is STA-WebSub relevant?
 
-The use of STA-WebSub enables the building of a (near) real-time alerting system over the Web by combingin the W3C WebSub and the OGCSensorThings API v1.1. The basic use is that a client can use a regular HTTP URL to fetch data but also to discover whether that URL could be used for subscription. This is a powerful mechanism, as the subscriber (client) can self-define (i) the condition for a notification event and (ii) the data structure being returned when the event occurs. The prevent that large amounts of data is returned with the discovery, HTTP HEAD requests can be used. Once the client has confidence to have found a topic, the client can use the HTTP GET request to fetch the base data and then subscribe with the exact same URL to the associated hub to receive the alerts when the event occurs. Because the data shaping query part of the URL has not changed, the data structure for the alerts remain identical with the base data which eases the processing of the alerts.
+STA-WebSub makes it possible to build a real-time or near-real-time alerting system on the Web by combining W3C WebSub with OGC SensorThings API v1.1. A client can use a regular HTTP URL both to retrieve data and to discover whether the URL can be used as a subscription topic.
 
-As outlined in the W3C WebSub, each subscription has a receiving Webhook URL hosted at the subscriber. The use of Webhooks do not require TCP sockets to remain open. Each time that a subscription event occurs, the hub uses the associated Webhook (callback URL) to deliver the alert data. Dedicated processing at the subscriber's side is straight forward for each Webhook: First, the subscriber should check via the X-Hub-Signature mechanism that the received alert data (i) was sent by the expected hub and (ii) has not been tampered.
+This is a powerful mechanism, as the subscriber (client) can self-define (i) the condition for a notification event and (ii) the data structure being returned when the event occurs. To avoid returning large amounts of data during discovery, the client can use an HTTP `HEAD` request. Once the client has confirmed that a URL is available as a topic, the client can use an HTTP GET request to retrieve the matching data and then subscribe to the associated hub using the same URL to receive the alerts when the event occurs. Because the query that shapes the data remains unchanged, the notification data can have the same structure as the data returned by the original query, making notifications easier to process.
 
-There are three major improvements by leveraging STA-WebSub over the STA MQTT. The first improvement is concerned with event (alert) distribution: The STA-WebSub does use regular HTTP(S) firewall ports and the requirement to keep a MQTT socket continously open does not exist. The STA MQTT broker delivers the events to the hub which is supposed to be deployed in a network close to the STA service. This means that external subscriptions (other than coming from the hub) can be denied by the broker. The second improvement is concerned with the security and the performance of the MQTT broker. The topic discovery, done by subscribers via the STA HTTP interface can include access control. The access control policy can control which subscribers can subscribe to which topic and what hub to use. So, for example, a STA service could be associated with three different hubs: (i) The first hub could be optimized for chatty topics with short alert data like `v1.1/Observations`; (ii) the second hub could be optimized for large alert data; and (iii) the third hub could be exclusive for paying subscribers ensuring a "exact-once" delivery of alerts. The third improvement is concerned with the ease to scale hubs. During the topic discovery, a STA service returns theURL for the hub that the subscriber should use for subscription. Enforcing "short" subscription expiration ensures that scaling up/down can take place without impacting the MQTT broker.
+As described by W3C WebSub, each subscription specifies a receiving Webhook URL hosted by the subscriber. Webhooks do not require a TCP socket to remain open. Each time that a subscription event occurs, the hub uses the associated Webhook (callback URL) to deliver the alert data. Dedicated processing at the subscriber's side is straight forward for each Webhook: the subscriber should validate the `X-Hub-Signature` header to check that the notification or received alert data (i) was sent by the expected hub and (ii) has not been tampered with.
+
+STA-WebSub offers several potential advantages over exposing the STA MQTT broker directly to external subscribers. First improvement is concerned with event (alert) distribution: The STA-WebSub does use regular HTTP(S) firewall ports and the requirement to keep a MQTT socket continuously open does not exist. The STA MQTT broker can deliver events to a hub which is supposed to be deployed in a network close to the STA service, while direct external subscriptions to the broker can be denied.
+
+The second improvement is concerned with the security and the performance of the MQTT broker. Topic discovery through the STA HTTP interface can apply access-control policies. This policies can determine or control which subscribers may subscribe to which topics and which hub they should use. For example, an STA service could be associated with different hubs optimized for high-volume topics with small notification payloads (such as `v1.1/Observations`), larger payloads, or a specific class of subscribers. Any guarantee such as exactly-once delivery depends on the capabilities and configuration of the implementation and should not be assumed automatically.
+
+Third, separating hubs from the MQTT broker can make it easier to scale notification delivery. During topic discovery, the STA service returns the URL of the hub that the subscriber should use for subscription. Short subscription-expiration periods can help the system scale hubs up or down without requiring changes to the MQTT broker.
 
 ### Useful resources
 
@@ -274,21 +297,21 @@ Based on OGC STA-WebSub, a complete alerting system over the Web for IoT sensors
 
 * [FROST-Server](https://github.com/FraunhoferIOSB/FROST-Server) is the open source reference implementation for OGC SensorThings API v1.1 by Fraunhofer. 
 * [FROST-Server-WebSub](https://github.com/securedimensions/FROST-Server-WebSub) is the open source implementation of a FROST-Server plugin that enables STA-WebSub.
-* [STA-WebSub-Hub](https://github.com/securedimensions/STA-WebSub-Hub) is an open source implementation of a STA-WebSub Hub that demonstrates the W3C WebSub subscription protocol and the subscription/notification with a STA service (FROST-Server)
-* [STA-WebSub-Discovery](https://github.com/CitiObs/environmental-monitoring-toolkit/blob/main/docs/data-integration/\[https:/github.com/securedimensions/STA-WebSub-Subscriber]\(https:/github.com/securedimensions/STA-WebSub-Discovery\)/README.md) is an open source implementation to demonstrate the use of STA-Websub for discovering topics (executed by subscribers)
-* [STA-WebSub Subscriber](https://github.com/grumets/ganxet) is an example implementation of a STA-WebSub Subscriber.
-* [TAPIS](https://github.com/grumets/tapis) is an example implementation of a Web-Application to visualize alerts received via a STA-WebSub Hub, see [the TAPIS application](https://www.tapis.grumets.cat/).
+* [STA-WebSub-Hub](https://github.com/securedimensions/STA-WebSub-Hub) is an open-source implementation of an STA-WebSub hub that demonstrates the W3C WebSub subscription protocol and subscription and notification workflows with an STA service (FROST-Server).
+* [STA-WebSub Discovery](https://github.com/securedimensions/STA-WebSub-Discovery) is an open-source implementation that demonstrates how subscribers discover STA-WebSub topics.
+* [STA-WebSub Subscriber (WebHook)](https://github.com/grumets/ganxet) is an example implementation of a webhook-based STA-WebSub subscriber.
+* [TAPIS](https://github.com/grumets/tapis) is an example implementation of a web application to visualize alerts received via an STA-WebSub hub, see [the TAPIS application](https://www.tapis.grumets.cat/).
 
 ### Hosted demonstration services
 
 Online resources demonstrating the use of STA-WebSub:
 
-The following services were listed as demonstrations of the STA-WebSub workflow. Their availability, configuration and behaviour may change over time.
+The following services demonstrate the STA-WebSub workflow. Their availability, configuration and behaviour may change over time.
 
-* [STA-WebSub Discovery client](https://sta-websub-discovery.citiobs.secd.eu/) is a Web-Application that demonstrates the STA-WebSub discovery with a STA service.
-* [STA service with STA-WebSub support](https://citiobs.demo.secure-dimensions.de/staplustest/v1.1) is a STA service endpoint that is assoviated with a STA-WebSub Hub.
-* [STA-WebSub Hub web application](https://sta-websub-hub.citiobs.secd.eu/) is a Web-Application for interacting with the STA-WebSub hub associated with the demonstration service.
-* [TAPIS](https://www.tapis.grumets.cat/) is a Web-Application that illustrates the use of the demo alerting system
+* [STA-WebSub Discovery client](https://sta-websub-discovery.citiobs.secd.eu/) is a web application that demonstrates the STA-WebSub discovery with a STA service.
+* [STA service with STA-WebSub support](https://citiobs.demo.secure-dimensions.de/staplustest/v1.1) is an STA service endpoint that is associated with an STA-WebSub hub.
+* [STA-WebSub Hub web application](https://sta-websub-hub.citiobs.secd.eu/) is a web application for interacting with the STA-WebSub hub associated with the demonstration service.
+* [TAPIS](https://www.tapis.grumets.cat/) is a web application that illustrates the demonstration alerting system.
 
 ### Standards and further reading
 
@@ -296,7 +319,7 @@ The following services were listed as demonstrations of the STA-WebSub workflow.
 * [OGC SensorThings API Extension: WebSub Asynchronous Messaging Standard (STA-WebSub)](https://docs.ogc.org/is/24-032r1/24-032r1.html) — the official STA-WebSub standard.
 * [W3C WebSub Recommendation](https://www.w3.org/TR/websub/) — the WebSub protocol specification.
 
-### You might be also interested in...
+### You might also be interested in...
 
 The deployment and use of the CitiObs (near) real-time alerting system for IoT sensors on the Web based on STA-WebSub was illustrated during the OGC Code Sprint in Rotterdam from 20 - 22 October 2025. More details are available from the [Code Sprint Wiki](https://github.com/opengeospatial/developer-events/wiki/October-2025-Open-Standards-Code-Sprint#introduction-to-sta-websub) and [here](https://github.com/opengeospatial/developer-events/wiki/Introduction-to-STA%E2%80%90WebSub).
 
