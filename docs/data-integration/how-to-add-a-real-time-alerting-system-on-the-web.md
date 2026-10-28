@@ -1,5 +1,5 @@
 ---
-icon: fishing-rod
+icon: bell-ring
 ---
 
 # How to add a real-time alerting system on the web using SensorThings API and WebSub
