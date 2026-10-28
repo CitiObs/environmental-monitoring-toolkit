@@ -6,7 +6,13 @@ icon: palette
 
 ## Description
 
-CitiObs Decision Support System (DSS) is a platform responsible for visualization of sensors observations on top of a map. Each sensor, which is an IoT device, can measure a variety of pollutants and meteorological conditions, as for example air temperature, relative humidity, ambient light, barometric pressure, noise level, particulate matter (PM1, PM2.5, PM10). Due to the large amount of data and their complexity DSS is an advanced integration tool that facilitates access to the data. DSS is developed in a friendly User Interface (UI), for easier and better navigation through the data.
+The CitiObs Decision Support System (DSS) helps you explore environmental observations through maps and time-series charts. You can find monitoring locations, select an available measurement such as particulate matter or temperature, and examine how readings change over time.
+
+The DSS accesses observations from participating monitoring initiatives through VirtualAir. The measurements available depend on the sensors and data services connected to the platform.
+
+This section explains how to explore the data, interpret the visualisations and download observations for further analysis.
+
+
 
 ## Why is this relevant?
 
@@ -15,6 +21,8 @@ CitiObs Decision Support System (DSS) is a technological tool designed to enhanc
 CitiObs DSS, gathers the data from Virtual Air, allowing to display data from different citizen science and citizen observatories initiatives, as all of them share the data using standard formats.&#x20;
 
 ## How can this be done?
+
+CitiObs Decision Support System (DSS) is a platform responsible for visualization of sensors observations on top of a map. Each sensor, which is an IoT device, can measure a variety of pollutants and meteorological conditions, as for example air temperature, relative humidity, ambient light, barometric pressure, noise level, particulate matter (PM1, PM2.5, PM10). Due to the large amount of data and their complexity DSS is an advanced integration tool that facilitates access to the data. DSS is developed in a friendly User Interface (UI), for easier and better navigation through the data.
 
 Users of the platform can make informed decisions based on their selections and the observed values of each pollutant. They can choose a specific pollutant of interest and view sensor-based visualizations of its observations. For example, if a user selects air temperature, the system will display the latest readings from various sensors, with each observation color-coded to indicate its measured value at a specific location. Additionally, users can access a line graph representation of all recorded observations and download the data in multiple formats. By leveraging this information, users can adjust their actions and activities based on data-driven insights, gaining either a detailed or broad understanding of air pollution levels over the current or past periods.
 

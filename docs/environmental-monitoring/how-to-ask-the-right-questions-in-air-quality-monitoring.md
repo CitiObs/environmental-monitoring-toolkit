@@ -2,11 +2,15 @@
 icon: question
 ---
 
-# How to ask the right questions in air quality monitoring?
+# How to develop your air quality monitoring question?
 
 ## Description
 
-Asking the right questions in environmental monitoring is a crucial step before delving into practical tasks. This is key to identify our research questions and define a clear set of goals. The questions that we ask will impact the methodology and processes we will follow, for instance: how and when to measure, and how many and what type of sensors we need. This section will describe how to go through this reflection process and help us formulate the research question.
+A monitoring project often starts with a concern: “There is too much traffic near our school” or “We notice smoke in our neighbourhood.” The next step is to turn that concern into a clear question that measurements can help answer.
+
+Develop the question together with the people affected and those who could use the findings to make changes, such as local authorities. Agree on what you want to understand, where and when you will investigate it, and how the results could support action.
+
+You do not need a perfect question from the beginning. Start with what matters to your community, then refine it as you explore the available equipment, expertise, time and budget. The example below shows how a broad concern can become a specific, measurable question.
 
 ## Why is this relevant?
 
@@ -14,7 +18,9 @@ Asking the right research questions will define a great portion of our sensing j
 
 ## How can this be done?
 
-A good way to start is addressing the question: what are we worried about? Although the question might look simple at first sight, it involves the development of an understanding of the issue or issues at hand. Next, once we have identified “what we are worried about”, we would like to convert those concerns into a research question and testable hypotheses. This can be done by translating our concerns to simple and manageable questions, such as: how does car traffic affect air quality in my neighbourhood? or, is noise pollution worse on weekdays or weekends? Simple and clear questions will allow us to design a methodology to collect data that can answer those questions. Otherwise, we risk started collecting data, and find at the end that we have not collected the right data to design actions to address “what we are worried about”.
+A good way to start is addressing the question: what are we worried about? Although the question might look simple at first sight, it involves the development of an understanding of the issue or issues at hand. Next, once we have identified “what we are worried about”, we would like to convert those concerns into a research question and testable hypotheses. This can be done by translating our concerns to simple and manageable questions, such as: how does car traffic affect air quality in my neighbourhood? or, is air pollution worse on weekdays or weekends? Simple and clear questions will allow us to design a methodology to collect data that can answer those questions. Otherwise, we risk started collecting data, and find at the end that we have not collected the right data to design actions to address “what we are worried about”.
+
+<figure><img src="../.gitbook/assets/mermaid-diagram (1).png" alt="" width="270"><figcaption><p>Illustrative example: choose the pollutant, monitoring period and measurement method with an air quality specialist to ensure the question is feasible. Discuss the question with the municipality’s transport department from the beginning, so the findings can inform possible improvements to school routes.</p></figcaption></figure>
 
 The considerations below can help to formulate the research question:
 

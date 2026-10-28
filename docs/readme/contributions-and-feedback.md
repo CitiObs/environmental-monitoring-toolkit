@@ -4,9 +4,19 @@ icon: code-pull-request
 
 # Contributions & Feedback
 
+### Content Contributions
+
+The easiest way to contribute is via a GitHub issue and, if you can, a Pull request. This process can be scary at first, but it's the way it's done in the _open source_ community.
+
+{% hint style="info" %}
+Check the following [documentation on pull requests](https://docs.github.com/en/pull-requests) and learn more about [issues](https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/creating-an-issue).
+{% endhint %}
+
+### Feedback
+
 We welcome your feedback to this toolkit via email or on [Github](https://github.com/CitiObs/environmental-monitoring-toolkit). You can also use the feedback buttons on the Gitbook interface.
 
-### Feedback via Gitbook
+#### Via Gitbook
 
 You will find the following feedback icons on the page.
 
@@ -16,18 +26,21 @@ We really appreciate the feedback, specially if you can add some additional cont
 
 <figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>Add some additional context!</p></figcaption></figure>
 
-### Submitting via GitHub / email
+#### Via GitHub / email
 
-*   **I'm submitting a …**&#x20;
+You can use this template to send us comments on a more structured way.
+
+*   **I'm submitting a …**
 
     This is the category of your feedback. You need to choose whether you are reporting a problem you found or requesting that new content be added. This helps the team understand the fundamental nature of your submission right away.
-*   **problem report**
 
-    You found something that isn't working correctly, is confusing, or seems wrong.
-*   **new content request**&#x20;
+    *   **problem report**
 
-    You think something is missing or could be added to make the toolkit better.
-*   **What is the current behavior?**&#x20;
+        You found something that isn't working correctly, is confusing, or seems wrong.
+    *   **new content request**
+
+        You think something is missing or could be added to make the toolkit better.
+*   **What is the current behavior?**
 
     This is where you describe the situation as it is now.
 
@@ -42,13 +55,3 @@ We really appreciate the feedback, specially if you can add some additional cont
 *   **Other information**
 
     This is a space for any additional details that might be relevant but don't fit neatly into the categories above.
-
-In essence, this template provides a structured way for users – whether they are scientists using the methodological sections or creatives engaging with the collaboration guidance – to clearly communicate issues or suggest improvements to the _CitiObs Community-led Action Toolkit_. It ensures that all necessary information is provided for the feedback to be effectively reviewed and potentially incorporated into future versions of the toolkit.
-
-### Contributions
-
-The easiest way to contribute is via a GitHub issue and, if you can, a Pull request. This process can be scary at first, but it's the way it's done in the _open source_ community.
-
-{% hint style="info" %}
-Check the following [documentation on pull requests](https://docs.github.com/en/pull-requests) and learn more about [issues](https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/creating-an-issue).
-{% endhint %}

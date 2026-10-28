@@ -17,8 +17,9 @@ Not all sensing devices available on the market are designed to measure the same
 Some common air pollution variables that can be measured with sensing devices technologies include:
 
 1. **Particulate Matter (PM):** sensors can measure particulate matter concentrations in the air, typically categorized by size fractions such as PM₁₀ (particles with a diameter of 10 micrometers or less) or PM2.5 (particles with a diameter of 2.5 micrometers or less).
-2. **Gases (chemical composition):** sensors may detect various gases associated with air pollution, including nitrogen dioxide (NO₂), ozone (O₃), sulfur dioxide (SO₂), carbon monoxide (CO), volatile organic compounds (VOCs), and hydrogen sulfide (H₂S).
-3. **Environmental metrics:** most air quality sensors include meteorological sensors to measure barometric pressure, temperature and humidity levels, which can provide context for interpreting air pollution data and understanding atmospheric conditions.
+2. **Gases (chemical composition):** sensors may detect various gases associated with air pollution, including nitrogen dioxide (NO₂), ozone (O₃), sulfur dioxide (SO₂), carbon monoxide (CO), volatile organic compounds (VOCs), formaldehyde (HCHO), carbon dioxide (CO2), radon (Rn), and hydrogen sulfide (H₂S).
+3. **Environmental metrics:** most air quality sensors include meteorological sensors to measure barometric pressure, temperature and humidity levels, light and noise level (dB), which can provide context for interpreting air pollution data and understanding atmospheric conditions.
+4. **Geolocation metrics:** GPS sensors can record and track latitude and longitude data along with associated timestamps.   
 
 ## Useful resources
 

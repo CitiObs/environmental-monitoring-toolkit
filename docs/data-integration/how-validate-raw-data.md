@@ -2,13 +2,17 @@
 icon: calendar-check
 ---
 
-# How to validate raw data to create Analysis Ready Data?
+# How to validate sensor data to create Analysis Ready Data?
 
 
 
 ## Description
 
-The Framework for Improving Low-cost Technology Effectiveness and Reliability (FILTER) provides advanced quality control and correction algorithms for air pollutants (fine particulate matter, PM2.5) and noise. The advantage of this tool is that it is sensing device agnostic, this is, it works for all type of devices, and it does not requiere that the device is co-located against a reference station. In its current version FILTER does requiere that the sensing device is nearby other sensing devices (low-cost sensor network, LCS).&#x20;
+Sensor measurements can contain errors and unusual readings. Before analysing the data, it is important to identify potential quality problems and understand whether corrections are appropriate.
+
+The Framework for Improving Low-cost Technology Effectiveness and Reliability (FILTER) provides statistical methods to flag potential erroneous data and correct measurement values. It is designed to work across different sensing devices without requiring each device to be placed alongside a reference monitoring station. However, the version described here requires nearby reference stations or sensors so that measurements can be compared across a network.
+
+FILTER helps prepare data for analysis, but processed data still need to be assessed against the requirements of your monitoring question. Keep the original measurements, quality flags and details of any corrections so that users can understand how the data were prepared.&#x20;
 
 ## Why is this relevant?
 
