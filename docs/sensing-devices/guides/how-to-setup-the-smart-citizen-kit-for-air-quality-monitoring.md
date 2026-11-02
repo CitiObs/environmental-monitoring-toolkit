@@ -3,13 +3,13 @@ description: >-
   This guide will help COs assemble the Smart Citizen Kits, register them, and
   deploy them to start collecting data.
 icon: head-side-goggles
-cover: ../.gitbook/assets/KIT-clips.jpg
+cover: ../../.gitbook/assets/KIT-clips.jpg
 coverY: 0
 ---
 
 # How to setup a Smart Citizen Kit for air quality monitoring?
 
-This guide will help COs assemble Smart Citizen Kits, register them, and deploy them to start collecting data. The Smart Citizen Kit (SCK) is an open source environmental monitoring device, customizable and modular for multiple use cases.
+This guide will help COs assemble Smart Citizen Kits, register them, and deploy them to start collecting data. The Smart Citizen Kit (SCK) is an open source environmental monitoring device, customizable and modular for multiple use cases. Read more about what it measures and how to get one in the [Smart Citizen Kit](../devices/smart-citizen-kit.md) description.
 
 {% hint style="info" %}
 The devices provided as part of CitiObs are Smart Citizen Kits (or SCK). These devices are _open source, customizable_ environmental monitoring devices, and they are developed from Barcelona.
@@ -48,7 +48,7 @@ For DIY kits, there is a small code printed on the box (a four-digit code with a
 We suggest you transfer the sticker from the box to the bottom of the PM sensor (see picture below) if there is not already a sticker with the same number. This way, you always have clear which device is which, and this placement gives easy access to check the code when the sensors are deployed.
 
 \
-<img src="../.gitbook/assets/Code.JPG" alt="" data-size="original">
+<img src="../../.gitbook/assets/Code.JPG" alt="" data-size="original">
 {% endhint %}
 
 #### Indoor Devices
@@ -68,11 +68,11 @@ For **indoor DIY kits**, you will need the following components:
   * 6 x M3x30mm INOX screws
   * 2x M3x10mm screws
 
-<div><figure><img src="../.gitbook/assets/Alliance-Case-Components-1.jpg" alt=""><figcaption><p>Indoor DIY components (front)</p></figcaption></figure> <figure><img src="../.gitbook/assets/Alliance-Case-Components-2.jpg" alt=""><figcaption><p>Indoor DIY components (back)</p></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/Alliance-Case-Components-1.jpg" alt=""><figcaption><p>Indoor DIY components (front)</p></figcaption></figure> <figure><img src="../../.gitbook/assets/Alliance-Case-Components-2.jpg" alt=""><figcaption><p>Indoor DIY components (back)</p></figcaption></figure></div>
 
-<figure><img src="../.gitbook/assets/Alliance-Case-Guide-13.jpg" alt=""><figcaption><p>Contents inside of Smart Citizen Kit Starter Pack</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Alliance-Case-Guide-13.jpg" alt=""><figcaption><p>Contents inside of Smart Citizen Kit Starter Pack</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/Alliance-Case-Guide-22.jpg" alt=""><figcaption><p>Contents inside of components bag</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Alliance-Case-Guide-22.jpg" alt=""><figcaption><p>Contents inside of components bag</p></figcaption></figure>
 
 **Outdoor Devices**
 
@@ -100,13 +100,13 @@ For **outdoor DIY kits**, you will need the following components:
   * 4 x M3x15mm screws
 * [Filtering foam](#user-content-fn-4)[^4] (large sheet of thin black foam, roughly A4 size)
 
-<div><figure><img src="../.gitbook/assets/Alliance-Case-Components-3.jpg" alt=""><figcaption><p>Outdoor DIY components (front)</p></figcaption></figure> <figure><img src="../.gitbook/assets/Alliance-Case-Components-4.jpg" alt=""><figcaption><p>Outdoor DIY components (back)</p></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/Alliance-Case-Components-3.jpg" alt=""><figcaption><p>Outdoor DIY components (front)</p></figcaption></figure> <figure><img src="../../.gitbook/assets/Alliance-Case-Components-4.jpg" alt=""><figcaption><p>Outdoor DIY components (back)</p></figcaption></figure></div>
 
-<div><figure><img src="../.gitbook/assets/Alliance-Case-Guide-21.jpg" alt=""><figcaption><p>Outdoor DIY components (umbrella)</p></figcaption></figure> <figure><img src="../.gitbook/assets/Alliance-Case-Guide-14.jpg" alt=""><figcaption><p>Outdoor DIY components (umbrella screws)</p></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/Alliance-Case-Guide-21.jpg" alt=""><figcaption><p>Outdoor DIY components (umbrella)</p></figcaption></figure> <figure><img src="../../.gitbook/assets/Alliance-Case-Guide-14.jpg" alt=""><figcaption><p>Outdoor DIY components (umbrella screws)</p></figcaption></figure></div>
 
-<figure><img src="../.gitbook/assets/Alliance-Case-Guide-13.jpg" alt=""><figcaption><p>Contents inside of Smart Citizen Kit Starter Pack</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Alliance-Case-Guide-13.jpg" alt=""><figcaption><p>Contents inside of Smart Citizen Kit Starter Pack</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/Alliance-Case-Guide-22.jpg" alt=""><figcaption><p>Contents inside of components bag</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Alliance-Case-Guide-22.jpg" alt=""><figcaption><p>Contents inside of components bag</p></figcaption></figure>
 
 **Tools (included)**
 
@@ -131,47 +131,47 @@ It is easiest to start with the screws on the individual sides of the enclosure,
 Do not screw the components too tightly, they just need to be screwed into place so that the head of the screw is touching the 3D printed component.
 {% endhint %}
 
-<div><figure><img src="../.gitbook/assets/Alliance-Case-Guide-Assemble-Enclosure-1.jpg" alt=""><figcaption><p>Pre-assembly enclosure</p></figcaption></figure> <figure><img src="../.gitbook/assets/Alliance-Case-Guide-Assemble-Enclosure-2.jpg" alt=""><figcaption><p>Post-assembly enclosure</p></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/Alliance-Case-Guide-Assemble-Enclosure-1.jpg" alt=""><figcaption><p>Pre-assembly enclosure</p></figcaption></figure> <figure><img src="../../.gitbook/assets/Alliance-Case-Guide-Assemble-Enclosure-2.jpg" alt=""><figcaption><p>Post-assembly enclosure</p></figcaption></figure></div>
 
 #### 2. Assemble the device
 
 * Insert the micro SD card into the slot
 
-<div align="left"><figure><img src="../.gitbook/assets/Alliance-Case-Guide-Step-1.jpg" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/Alliance-Case-Guide-Step-1.jpg" alt=""><figcaption></figcaption></figure></div>
 
 * Separate the two boards, insert the nylon spacers, then reconnect the boards assuring that the pins are correctly aligned. (_**See video below.**_)
 * Insert the PCB boards into the 3D printed clip. There is a small groove where the board sits, slide the board all the way in and then snap the two other corners into place. (_**See video below.**_)
 
-<div><figure><img src="../.gitbook/assets/Alliance-Case-Guide-Step-2.jpg" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Alliance-Case-Guide-Step-3.jpg" alt=""><figcaption></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/Alliance-Case-Guide-Step-2.jpg" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/Alliance-Case-Guide-Step-3.jpg" alt=""><figcaption></figcaption></figure></div>
 
 {% embed url="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FNrbUZZnCHL4XtHojsGrx%2Fuploads%2FNybd4vrmSJ1QUMK3I4kH%2FCitiObs-Clip-Guide.mp4?alt=media&token=902bcc6c-6304-4834-9b7b-41ae4e4b5ba3" fullWidth="false" %}
 
 * Insert the PM sensor into it's slot in the clip, and push it snugly into place
 
-<div><figure><img src="../.gitbook/assets/Alliance-Case-Guide-Step-4.jpg" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Alliance-Case-Guide-Step-4-b.jpg" alt=""><figcaption></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/Alliance-Case-Guide-Step-4.jpg" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/Alliance-Case-Guide-Step-4-b.jpg" alt=""><figcaption></figcaption></figure></div>
 
 * Connect the PM cable from the PCB board to the PM sensor feeding it through the holders on the back of the clip to keep it flat.
   * The cable orientation does not matter, both ends are the same.
 
-<div><figure><img src="../.gitbook/assets/Alliance-Case-Guide-Step-5.jpg" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Alliance-Case-Guide-Step-6.jpg" alt=""><figcaption></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/Alliance-Case-Guide-Step-5.jpg" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/Alliance-Case-Guide-Step-6.jpg" alt=""><figcaption></figcaption></figure></div>
 
 * Insert the components into the base of the enclosure, ensuring that it is fully pushed into the enclosure.
 
-<figure><img src="../.gitbook/assets/Alliance-Case-Guide-Step-7.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Alliance-Case-Guide-Step-7.jpg" alt=""><figcaption></figcaption></figure>
 
 * Tuck the battery into place behind the PCB board, using the PM cable to keep it in place.
 
-<figure><img src="../.gitbook/assets/Alliance-Case-Guide-Step-8.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Alliance-Case-Guide-Step-8.jpg" alt=""><figcaption></figcaption></figure>
 
 * Use the 2x M3x10mm and the 2.5 HEX key to screws to screw the clip and components into place
 
-<figure><img src="../.gitbook/assets/Alliance-Case-Guide-Step-9.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Alliance-Case-Guide-Step-9.jpg" alt=""><figcaption></figcaption></figure>
 
 #### 3. Assemble the umbrella (for outdoor devices only)
 
 * Using the 2.5 HEX key, install the 4 x M3x15mm screws into the four holes on the underside of the umbrella.
 
-<div><figure><img src="../.gitbook/assets/Alliance-Case-Guide-U-1.jpg" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Alliance-Case-Guide-U2.jpg" alt=""><figcaption></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/Alliance-Case-Guide-U-1.jpg" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/Alliance-Case-Guide-U2.jpg" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="danger" %}
 These screws should only be screwed in far enough that the screws touch the material below, they do not need to be tightened further, doing so can damage the umbrella.
@@ -179,19 +179,19 @@ These screws should only be screwed in far enough that the screws touch the mate
 
 * Align the enclosure as indicated in the left image below. Using the M4x10mm screw and the 3 HEX key connect the power supply box to the umbrella (bottom left hole, as indicated in the right image), then secure the enclosure using the M4x25mm screw (top left hole) with the 3 HEX key. This should lock the device in place. Check that the device does not move and that you can see the screw pushing the top of the device down securely.
 
-<div><figure><img src="../.gitbook/assets/Alliance-Case-Guide-U3.jpg" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Alliance-Case-Guide-U4.jpg" alt=""><figcaption></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/Alliance-Case-Guide-U3.jpg" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/Alliance-Case-Guide-U4.jpg" alt=""><figcaption></figcaption></figure></div>
 
 * Using the 4 x M3x15mm screws and a Phillips screw driver, attach the power supply cover.
 
-<figure><img src="../.gitbook/assets/Alliance-Case-Guide-U5.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Alliance-Case-Guide-U5.jpg" alt=""><figcaption></figcaption></figure>
 
 * Feed the USB cable through the enclosure box and plug it into the device.
 
-<div><figure><img src="../.gitbook/assets/Alliance-Case-Guide-U6.jpg" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/cable.jpg" alt=""><figcaption></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/Alliance-Case-Guide-U6.jpg" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/cable.jpg" alt=""><figcaption></figcaption></figure></div>
 
 * Connect the battery and plug in the device into a wall outlet.
 
-<figure><img src="../.gitbook/assets/battery.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/battery.jpg" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 Due to the power needs of the SCK2.3 (and SCK2.2), the SCK always needs a battery connected.
@@ -202,10 +202,10 @@ Due to the power needs of the SCK2.3 (and SCK2.2), the SCK always needs a batter
 {% hint style="danger" %}
 Note, this is the foam we are talking about...
 
-<img src="../.gitbook/assets/filtering-foam.jpg" alt="" data-size="original">
+<img src="../../.gitbook/assets/filtering-foam.jpg" alt="" data-size="original">
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/IMG_4509.JPG" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/IMG_4509.JPG" alt=""><figcaption></figcaption></figure>
 
 ## Device registration
 
@@ -238,15 +238,15 @@ The app will guide you through the steps. Let us know if there is any issue.
 
 The easiest way to enable forwarding is to visit your device on [the website](#user-content-fn-5)[^5] and click on the `EDIT button` on the bottom part of the graphs.
 
-![Edit Smart Citizen Kit](../.gitbook/assets/edit-sck.png)
+![Edit Smart Citizen Kit](../../.gitbook/assets/edit-sck.png)
 
 Then, scroll down to the forwarding section and enable the checkbox. Make sure all the other settings are shown as in the image below, and to hit **update** when you are done!
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>Enable MQTT forwarding</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>Enable MQTT forwarding</p></figcaption></figure>
 
 In addition, please add the `CitiObs` `tag` on your device:
 
-![Add device tags](../.gitbook/assets/tags.png)
+![Add device tags](../../.gitbook/assets/tags.png)
 
 {% hint style="warning" %}
 If you do not see this, please contact us at [info@smartcitizen.me](mailto:info@smartcitizen.me)
@@ -260,11 +260,11 @@ Once you are done, make sure you hit **Update**!
 
 The easiest way to enable forwarding is to visit your device on [the website](#user-content-fn-5)[^5] and click on the`EDIT button` on the bottom part of the graphs.
 
-![Edit Smart Citizen Kit](../.gitbook/assets/edit-sck.png)
+![Edit Smart Citizen Kit](../../.gitbook/assets/edit-sck.png)
 
 Then, scroll down to the notifications section and enable both. This will trigger an email in case the device stops publishing. This step is crucial to ensure that, in the event of sensor malfunction, we can avoid data loss. There are no additional notifications on that email.
 
-![Enable notifications](../.gitbook/assets/notifications.png)
+![Enable notifications](../../.gitbook/assets/notifications.png)
 
 {% hint style="success" %}
 Once you are done, make sure you hit **Update**!
@@ -274,14 +274,14 @@ Once you are done, make sure you hit **Update**!
 
 _An experiment is a way to group devices and share data with others through the Smart Citizen Platform. You can create an experiment by visiting your user profile:_
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 Fill out the relevant information such as `name`, `description`, `start and end dates` and add the devices on the `KITS` section. You can search there for your COs devices and create a collection of devices which is very handy to share later on.
 
 {% hint style="info" %}
 You can look at an example experiment at: [https://api.smartcitizen.me/ui/experiments/6](https://api.smartcitizen.me/ui/experiments/6)
 
-<img src="../.gitbook/assets/image (4).png" alt="" data-size="original">
+<img src="../../.gitbook/assets/image (4).png" alt="" data-size="original">
 {% endhint %}
 
 ### Advanced devices
@@ -300,11 +300,11 @@ This hardware ID is not the same as the `device ID`. The `device ID` is the numb
 
 * The easiest way to enable forwarding is to visit your device on [the website](#user-content-fn-5)[^5] and click on the`EDIT button` on the bottom part of the graphs.
 
-![Edit Smart Citizen Kit](../.gitbook/assets/edit-sck.png)
+![Edit Smart Citizen Kit](../../.gitbook/assets/edit-sck.png)
 
 * Then, in the `hardware URL` field, introduce the number in the sticker (it should be something like `SCAS2200XX`)
 
-![Postprocessing hardware URL](../.gitbook/assets/advanced-options-2.png)
+![Postprocessing hardware URL](../../.gitbook/assets/advanced-options-2.png)
 
 * Once this process is done, you should be able to check that the postprocessing is safely stored in the Platform by visiting the following link (Make sure your`<DEVICE-ID>` is correct): `https://api.smartcitizen.me/v0/devices/<DEVICE-ID>/`
 

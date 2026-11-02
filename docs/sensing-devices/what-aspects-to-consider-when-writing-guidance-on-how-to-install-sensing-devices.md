@@ -8,6 +8,8 @@ icon: dog-leashed
 
 Sometimes, even if the device manufacturer provides instructions on how to do the installation, those might not meet the needs of the users (language is too technical, need of translation to local language, etc.).
 
+<figure><img src="../.gitbook/assets/sensor-community-2.jpeg" alt="A Sensor.Community kit with two white pipe-bend housings, PM sensor, microcontroller board, USB cable, power adapter and wiring"><figcaption><p>A Sensor.Community kit, with the pipe bends that form its weatherproof housing.</p></figcaption></figure>
+
 ## Why is this relevant?
 
 When writing guidance on how to install sensing devices, it’s important to provide clear and comprehensive instructions to ensure the installation is done correctly, minimizing the risk of data loss, and putting in place protocols to help ensuring data quality.
