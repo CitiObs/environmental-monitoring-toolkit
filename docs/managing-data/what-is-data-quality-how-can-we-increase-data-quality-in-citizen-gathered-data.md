@@ -1,5 +1,7 @@
 ---
 icon: head-side-goggles
+cover: ../.gitbook/assets/1342.jpg
+coverY: 0
 ---
 
 # What is data quality? How can we increase data quality in citizen gathered data?

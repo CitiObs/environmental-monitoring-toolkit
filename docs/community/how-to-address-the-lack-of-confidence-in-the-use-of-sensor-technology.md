@@ -1,5 +1,8 @@
 ---
 icon: eyes
+cover: ../.gitbook/assets/_DSC9385.jpg
+coverY: 0
+coverHeight: 354
 ---
 
 # How to address the lack of confidence in the use of sensor technology?

@@ -1,5 +1,7 @@
 ---
 icon: lightbulb-on
+cover: ../.gitbook/assets/8912.jpg
+coverY: 0
 ---
 
 # How to make data accessible to non-experts in a clear and understandable format?

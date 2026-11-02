@@ -1,5 +1,7 @@
 ---
 icon: window-frame
+cover: ../.gitbook/assets/300630.jpg
+coverY: 0
 ---
 
 # How do we increase transparency in data collected by citizens?

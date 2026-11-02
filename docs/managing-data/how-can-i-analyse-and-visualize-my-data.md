@@ -1,5 +1,32 @@
 ---
 icon: chart-line
+cover: ../.gitbook/assets/8057.jpg
+coverY: 0
+coverHeight: 435
+layout:
+  width: default
+  cover:
+    visible: true
+    size: full
+    mask: none
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
 
 # How can I analyse and visualize my data?
@@ -35,7 +62,7 @@ Technical tools should be tailored to their specific purpose and should avoid un
 
 <figure><img src="../.gitbook/assets/orange-basic.png" alt=""><figcaption><p>Orange data tools</p></figcaption></figure>
 
-* [Python](https://www.python.org/) and [R](https://www.r-project.org/) libraries: there are several libraries for analysing data in python. In CitiObs we have done some libraries for accessing data and provided examples for analysing data in python/R.&#x20;
+* [Python](https://www.python.org/) and [R](https://www.r-project.org/) libraries: there are several libraries for analysing data in python. In CitiObs we have done some libraries for accessing data and provided examples for analysing data in python/R.
   * STAplus-Python-Client: [https://github.com/securedimensions/STAplus-Python-Client](https://github.com/securedimensions/STAplus-Python-Client)
   * Smart Citizen Connector [https://github.com/fablabbcn/smartcitizen-connector/](https://github.com/fablabbcn/smartcitizen-connector/)
   * Jupyter Notebooks examples using these libraries: [https://github.com/CitiObs/data-recipes](https://github.com/CitiObs/data-recipes)
@@ -58,4 +85,3 @@ Examples for TAPIS can be found in the [recipes section of the help](https://tap
 * [What is data quality? How can we increase data quality in citizen gathered data?](what-is-data-quality-how-can-we-increase-data-quality-in-citizen-gathered-data.md)
 * [How to make data accessible to non-experts in a clear and understandable format?](how-to-make-data-accessible-to-non-experts-in-a-clear-and-understandable-format.md)
 * [How to add a data visualization to support decision?](../data-integration/how-to-add-visual-support-system.md)
-

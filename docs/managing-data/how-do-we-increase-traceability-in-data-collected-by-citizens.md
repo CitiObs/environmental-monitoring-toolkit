@@ -1,5 +1,7 @@
 ---
 icon: list-check
+cover: ../.gitbook/assets/496611.jpg
+coverY: 0
 ---
 
 # How do we increase traceability in data collected by citizens?

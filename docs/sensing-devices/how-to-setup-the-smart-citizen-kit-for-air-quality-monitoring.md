@@ -27,7 +27,7 @@ Depending on what type of device you have (we also call them _kits)_, you will n
 
 **Mobile kits and kits with more complex metrics (CO2 or NO2) are not available as DIY due to their complexity** and the need for more elaborate testing before shipment.
 
-**GPS:** A GPS can be conneted to the Smart Citizen Kit vis its [Auxiliar port](https://docs.smartcitizen.me/hardware/addons/gps/). This GPS can be used to collect geolocated data (longitude, latitude, timestamp), along side environmental variables. The GPS can also be used as NTP (Network Time Protocol) provider in places where Wi-Fi is not available. In addition, the Smart Citizen Kit has a "dynamic interval" setting which allows users to collect data at higher frequencies when horizontal speed is higher than 1.4 m/s. 
+**GPS:** A GPS can be conneted to the Smart Citizen Kit vis its [Auxiliar port](https://docs.smartcitizen.me/hardware/addons/gps/). This GPS can be used to collect geolocated data (longitude, latitude, timestamp), along side environmental variables. The GPS can also be used as NTP (Network Time Protocol) provider in places where Wi-Fi is not available. In addition, the Smart Citizen Kit has a "dynamic interval" setting which allows users to collect data at higher frequencies when horizontal speed is higher than 1.4 m/s.
 
 These devices will been shipped pre-assembled regardless of the overall requested preference for the Alliance Case.
 {% endhint %}
@@ -281,7 +281,7 @@ Fill out the relevant information such as `name`, `description`, `start and end 
 {% hint style="info" %}
 You can look at an example experiment at: [https://api.smartcitizen.me/ui/experiments/6](https://api.smartcitizen.me/ui/experiments/6)
 
-<img src="../.gitbook/assets/image (4) (1).png" alt="" data-size="original">
+<img src="../.gitbook/assets/image (4).png" alt="" data-size="original">
 {% endhint %}
 
 ### Advanced devices

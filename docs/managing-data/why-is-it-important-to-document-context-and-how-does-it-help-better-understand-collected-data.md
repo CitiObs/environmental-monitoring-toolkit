@@ -1,5 +1,7 @@
 ---
 icon: arrows-to-circle
+cover: ../.gitbook/assets/92925.jpg
+coverY: 0
 ---
 
 # Why is it important to document context and how does it help better understand collected data?

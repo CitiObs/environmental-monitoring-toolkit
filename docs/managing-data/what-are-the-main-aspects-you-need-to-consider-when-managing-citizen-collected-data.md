@@ -1,5 +1,7 @@
 ---
 icon: bars-progress
+cover: ../.gitbook/assets/121279.jpg
+coverY: 0
 ---
 
 # What are the main aspects you need to consider when managing citizen collected data?

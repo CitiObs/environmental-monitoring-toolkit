@@ -1,5 +1,8 @@
 ---
 icon: arrows-left-right-to-line
+cover: ../.gitbook/assets/20260603_163938.jpg
+coverY: 0
+coverHeight: 378
 ---
 
 # How to promote involvement and participation in environmental monitoring to minimize data gaps?
