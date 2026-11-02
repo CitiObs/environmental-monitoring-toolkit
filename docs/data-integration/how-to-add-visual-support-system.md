@@ -12,13 +12,11 @@ The DSS accesses observations from participating monitoring initiatives through 
 
 This section explains how to explore the data, interpret the visualisations and download observations for further analysis.
 
-
-
 ## Why is this relevant?
 
 CitiObs Decision Support System (DSS) is a technological tool designed to enhance decision-making in the field of air pollution by visualizing sensor-based observations. Its use aims to increase awareness of air quality in specific areas of interest. The DSS provides users with an overview of air quality conditions in their chosen location, whether it is their residential area, a place where they are active, or a broader region. Additionally, it enables users to identify pollution trends over time, helping them take proactive measures to reduce exposure or advocate for environmental improvements.
 
-CitiObs DSS, gathers the data from Virtual Air, allowing to display data from different citizen science and citizen observatories initiatives, as all of them share the data using standard formats.&#x20;
+CitiObs DSS, gathers the data from Virtual Air, allowing to display data from different citizen science and citizen observatories initiatives, as all of them share the data using standard formats.
 
 ## How can this be done?
 
@@ -34,5 +32,5 @@ The data visualized in the DSS is managed, controlled, and enhanced by another c
 
 ## You might also be interested in
 
-* [How to centralize access to Analysis Ready Data?](how-centralize-access-ARD.md)
+* [How to centralize access to Analysis Ready Data?](how-centralize-access-ard.md)
 * [What to consider for increasing interoperability among sensor data infrastructures?](../data-platforms/what-to-consider-for-increasing-interoperability-among-sensor-data-infrastructures.md)
