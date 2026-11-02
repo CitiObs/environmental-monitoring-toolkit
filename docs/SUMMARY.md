@@ -44,7 +44,7 @@
 * [Community](community/README.md)
   * [How to address the lack of confidence in the use of sensor technology?](community/how-to-address-the-lack-of-confidence-in-the-use-of-sensor-technology.md)
   * [How to promote involvement and participation in environmental monitoring to minimize data gaps?](community/how-to-promote-involvement-and-participation-in-environmental-monitoring-to-minimize-data-gaps.md)
-  * [How to Bring a Health Lens to Environmental Monitoring?](community/how-to-bring-a-health-lens-to-environmental-monitoring.md)
+  * [How to Bring a Health Lens to Environmental Monitoring?](community/health-lens.md)
 * [Citizen Observatories stories](citizen-observatories-stories/README.md)
   * [Contribution template](citizen-observatories-stories/contribution-template.md)
 * [Wearables](wearables/README.md)
